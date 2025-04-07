@@ -5,6 +5,9 @@
 ### Roadmap
 
 - [ ] Basic searching and streaming of previous mixes, their two 24/7 radio stations, and infinite mixtapes
+  - [ ] 24/7 Radio station
+  - [ ] Search Archive Mixes
+  - [ ] Infinite Mixtapes
 - [ ] Spotify Playlist Generation Based on NTS Mixes
   - Parses a mix's track history
   - Validates if tracks exist on Spotify

@@ -3,6 +3,10 @@ import time
 import requests
 import json
 
+def handle_menu_options(choice):
+    if choice == '1':
+        play_radio()
+
 def print_current_sets(raw_radio):
     for i in raw_radio:
         details = i['now']['embeds']['details']
@@ -14,16 +18,18 @@ def print_current_sets(raw_radio):
         print("CHANNEL " + i["channel_name"] + " CURRENTLY PLAYING: " + name)
         print("DESCRIPTION: " + desc)
         print("GENRES: " + genre_list)
-        print()
 
     print('[+] Radio Channel Overview SUCCESS')
 
-def print_upcoming_set(raw_radio, radio_channel):
-    radio_channel_index = int(radio_channel) - 1
+def print_upcoming_set(json_output):
+    next = json_output['next']
+    title = next['broadcast_title']
+    genre_tmp = [j['value'] for j in next['embeds']['details']['genres']]
+    genre_list = ', '.join(map(str,genre_tmp))
 
-    channel_select = raw_radio[radio_channel_index]
-    next = channel_select['next']['broadcast_title']
-    print(next)
+    # OUTPUT
+    print(f"COMING NEXT: {title}")
+    print(f"GENRES: {genre_list}")
 
 def play_radio():
     NTS_CHANNEL_1 = 'https://stream-relay-geo.ntslive.net/stream'
@@ -36,6 +42,7 @@ def play_radio():
     radio_select = ''
 
     print_current_sets(raw_radio)
+    print()
     while(radio_channel != '1' and radio_channel != '2'):
         radio_channel = input("Select radio station 1 or 2: ")
 
@@ -49,22 +56,15 @@ def play_radio():
         print("Invalid usage: select 1 or 2")
 
     player = vlc.MediaPlayer(radio_select)
+    radio_output = raw_radio[int(radio_channel) - 1]
     print("[+] Player successfully initialized")
-
+    print()
     player.play()
     time.sleep(1)
-    print_upcoming_set(raw_radio, radio_channel)
-    time.sleep(1)
-
+    print_upcoming_set(radio_output)
     input("Press enter to stop")
-
     player.stop()
-
-
-
-def handle_menu_options(choice):
-    if choice == '1':
-        play_radio()
+    print("[+] Successfully exiting radio...")
 
 def main():
 
@@ -93,8 +93,6 @@ def main():
             print("Invalid Option: Choose from {1,2,3,exit}")
         else:
             handle_menu_options(menu_primitive)
-
-
 
 if __name__ == '__main__':
     main()
