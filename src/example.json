@@ -3,87 +3,6 @@
     {
       "channel_name": "1",
       "now": {
-        "broadcast_title": "Music 4 Lovers w/ Jabu &amp; Andy Payback (R)",
-        "start_timestamp": "2025-04-07T04:00:00+01:00",
-        "end_timestamp": "2025-04-07T05:00:00+01:00",
-        "embeds": {
-          "details": {
-            "status": "published",
-            "updated": "2024-08-19T12:40:35+00:00",
-            "name": "Music 4 Lovers w/ Jabu & Andy Payback",
-            "description": "Jabu and Andy Payback bring us Music 4 Lovers once a month.",
-            "description_html": "<h3>Jabu and Andy Payback bring us Music 4 Lovers once a month.</h3>",
-            "external_links": [],
-            "moods": [],
-            "genres": [
-              {
-                "id": "genres-altrockpunk-shoegaze",
-                "value": "Shoegaze"
-              },
-              {
-                "id": "genres-altrockpunk-indie",
-                "value": "Indie Rock"
-              },
-              {
-                "id": "genres-other-leftfield-pop",
-                "value": "Leftfield Pop"
-              }
-            ],
-            "location_short": "BRS",
-            "location_long": "Bristol",
-            "intensity": "50",
-            "media": {
-              "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/46de0bf6-e43c-4785-8302-d41fe152bf76_1723766400.jpeg",
-              "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/46de0bf6-e43c-4785-8302-d41fe152bf76_1723766400.jpeg",
-              "background_medium": "https://media.ntslive.co.uk/resize/400x400/46de0bf6-e43c-4785-8302-d41fe152bf76_1723766400.jpeg",
-              "background_small": "https://media3.ntslive.co.uk/resize/200x200/46de0bf6-e43c-4785-8302-d41fe152bf76_1723766400.jpeg",
-              "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/46de0bf6-e43c-4785-8302-d41fe152bf76_1723766400.jpeg",
-              "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/46de0bf6-e43c-4785-8302-d41fe152bf76_1723766400.jpeg",
-              "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/46de0bf6-e43c-4785-8302-d41fe152bf76_1723766400.jpeg",
-              "picture_medium": "https://media.ntslive.co.uk/resize/400x400/46de0bf6-e43c-4785-8302-d41fe152bf76_1723766400.jpeg",
-              "picture_small": "https://media3.ntslive.co.uk/resize/200x200/46de0bf6-e43c-4785-8302-d41fe152bf76_1723766400.jpeg",
-              "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/46de0bf6-e43c-4785-8302-d41fe152bf76_1723766400.jpeg"
-            },
-            "episode_alias": "music-4-lovers-17th-august-2024",
-            "show_alias": "music-4-lovers",
-            "broadcast": "2024-08-17T17:00:00+00:00",
-            "mixcloud": "https://www.mixcloud.com/NTSRadio/music-4-lovers-w-jabu-andy-payback-17th-august-2024/",
-            "audio_sources": [
-              {
-                "url": "https://soundcloud.com/user-643553014/music-4-lovers-w-jabu-andy-4",
-                "source": "soundcloud"
-              }
-            ],
-            "brand": {},
-            "embeds": {},
-            "links": [
-              {
-                "rel": "self",
-                "href": "https://www.nts.live/api/v2/shows/music-4-lovers/episodes/music-4-lovers-17th-august-2024",
-                "type": "application/vnd.episode+json;charset=utf-8"
-              },
-              {
-                "rel": "show",
-                "href": "https://www.nts.live/api/v2/shows/music-4-lovers",
-                "type": "application/vnd.show+json;charset=utf-8"
-              },
-              {
-                "rel": "tracklist",
-                "href": "https://www.nts.live/api/v2/shows/music-4-lovers/episodes/music-4-lovers-17th-august-2024/tracklist",
-                "type": "application/vnd.track-list+json;charset=utf-8"
-              }
-            ]
-          }
-        },
-        "links": [
-          {
-            "href": "https://www.nts.live/api/v2/shows/music-4-lovers/episodes/music-4-lovers-17th-august-2024",
-            "rel": "details",
-            "type": "application/vnd.episode+json;charset=utf-8"
-          }
-        ]
-      },
-      "next": {
         "broadcast_title": "NTS GUIDE TO: HOLY MINIMALISM",
         "start_timestamp": "2025-04-07T05:00:00+01:00",
         "end_timestamp": "2025-04-07T07:00:00+01:00",
@@ -173,11 +92,66 @@
           }
         ]
       },
-      "next2": {
+      "next": {
         "broadcast_title": "THE EARLY BIRD SHOW w/ GEM&amp;I",
         "start_timestamp": "2025-04-07T07:00:00+01:00",
         "end_timestamp": "2025-04-07T09:00:00+01:00",
-        "embeds": {},
+        "embeds": {
+          "details": {
+            "status": "pending",
+            "updated": "2025-04-06T10:59:37+00:00",
+            "name": "The Early Bird Show w/ GEM&I",
+            "description": "This melody brings back a memory\nas i open my eyes\nquiet are the skies\nmy mornings breathe in tune\nA journal of songs that lift my spirit and open my heart. Singing them on repeat.\nFrom Darija to Mandarin, join me in singing along to my favorite tracks\u2014both those with lyrics and the instrumental ones.",
+            "description_html": "<h3>This melody brings back a memory\nas i open my eyes\nquiet are the skies\nmy mornings breathe in tune</h3>\n<p>A journal of songs that lift my spirit and open my heart. Singing them on repeat.\nFrom Darija to Mandarin, join me in singing along to my favorite tracks\u2014both those with lyrics and the instrumental ones.</p>",
+            "external_links": [],
+            "moods": [
+              {
+                "id": "moods-lean-back",
+                "value": "LEAN BACK"
+              }
+            ],
+            "genres": [],
+            "location_short": "BRS",
+            "location_long": "Brussels",
+            "intensity": null,
+            "media": {
+              "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+              "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+              "background_medium": "https://media.ntslive.co.uk/resize/400x400/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+              "background_small": "https://media3.ntslive.co.uk/resize/200x200/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+              "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+              "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+              "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+              "picture_medium": "https://media.ntslive.co.uk/resize/400x400/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+              "picture_small": "https://media3.ntslive.co.uk/resize/200x200/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+              "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg"
+            },
+            "episode_alias": "early-bird-gem-i-7th-april-2025",
+            "show_alias": "early-bird",
+            "broadcast": "2025-04-07T06:00:00+00:00",
+            "mixcloud": null,
+            "audio_sources": [],
+            "brand": {},
+            "embeds": {},
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://www.nts.live/api/v2/shows/early-bird/episodes/early-bird-gem-i-7th-april-2025",
+                "type": "application/vnd.episode+json;charset=utf-8"
+              },
+              {
+                "rel": "show",
+                "href": "https://www.nts.live/api/v2/shows/early-bird",
+                "type": "application/vnd.show+json;charset=utf-8"
+              },
+              {
+                "rel": "tracklist",
+                "href": "https://www.nts.live/api/v2/shows/early-bird/episodes/early-bird-gem-i-7th-april-2025/tracklist",
+                "type": "application/vnd.track-list+json;charset=utf-8"
+              }
+            ]
+          }
+        },
         "links": [
           {
             "href": "https://www.nts.live/api/v2/shows/early-bird/episodes/early-bird-gem-i-7th-april-2025",
@@ -186,7 +160,7 @@
           }
         ]
       },
-      "next3": {
+      "next2": {
         "broadcast_title": "THE NTS BREAKFAST SHOW W/ FLO",
         "start_timestamp": "2025-04-07T09:00:00+01:00",
         "end_timestamp": "2025-04-07T11:00:00+01:00",
@@ -199,7 +173,7 @@
           }
         ]
       },
-      "next4": {
+      "next3": {
         "broadcast_title": "Soup To Nuts w/ John G\u00f3mez",
         "start_timestamp": "2025-04-07T11:00:00+01:00",
         "end_timestamp": "2025-04-07T13:00:00+01:00",
@@ -212,7 +186,7 @@
           }
         ]
       },
-      "next5": {
+      "next4": {
         "broadcast_title": "Floating Points",
         "start_timestamp": "2025-04-07T13:00:00+01:00",
         "end_timestamp": "2025-04-07T15:00:00+01:00",
@@ -225,7 +199,7 @@
           }
         ]
       },
-      "next6": {
+      "next5": {
         "broadcast_title": "OHBLIV",
         "start_timestamp": "2025-04-07T15:00:00+01:00",
         "end_timestamp": "2025-04-07T16:00:00+01:00",
@@ -238,7 +212,7 @@
           }
         ]
       },
-      "next7": {
+      "next6": {
         "broadcast_title": "TOUCHING BASS W/ ERROL &amp; ALEX RITA",
         "start_timestamp": "2025-04-07T16:00:00+01:00",
         "end_timestamp": "2025-04-07T18:00:00+01:00",
@@ -251,7 +225,7 @@
           }
         ]
       },
-      "next8": {
+      "next7": {
         "broadcast_title": "COCO MARIA",
         "start_timestamp": "2025-04-07T18:00:00+01:00",
         "end_timestamp": "2025-04-07T20:00:00+01:00",
@@ -264,7 +238,7 @@
           }
         ]
       },
-      "next9": {
+      "next8": {
         "broadcast_title": "SUNCUT",
         "start_timestamp": "2025-04-07T20:00:00+01:00",
         "end_timestamp": "2025-04-07T21:00:00+01:00",
@@ -277,7 +251,7 @@
           }
         ]
       },
-      "next10": {
+      "next9": {
         "broadcast_title": "WOODGRAIN w/ DENNIS.EXP",
         "start_timestamp": "2025-04-07T21:00:00+01:00",
         "end_timestamp": "2025-04-07T22:00:00+01:00",
@@ -290,7 +264,7 @@
           }
         ]
       },
-      "next11": {
+      "next10": {
         "broadcast_title": "ORGAN TAPES",
         "start_timestamp": "2025-04-07T22:00:00+01:00",
         "end_timestamp": "2025-04-07T23:00:00+01:00",
@@ -303,7 +277,7 @@
           }
         ]
       },
-      "next12": {
+      "next11": {
         "broadcast_title": "Field Research: Brassica",
         "start_timestamp": "2025-04-07T23:00:00+01:00",
         "end_timestamp": "2025-04-08T00:00:00+01:00",
@@ -316,7 +290,7 @@
           }
         ]
       },
-      "next13": {
+      "next12": {
         "broadcast_title": "ALL STYLES ALL SMILES",
         "start_timestamp": "2025-04-08T00:00:00+01:00",
         "end_timestamp": "2025-04-08T02:00:00+01:00",
@@ -329,7 +303,7 @@
           }
         ]
       },
-      "next14": {
+      "next13": {
         "broadcast_title": "Cooking with Palms Trax (R)",
         "start_timestamp": "2025-04-08T02:00:00+01:00",
         "end_timestamp": "2025-04-08T04:00:00+01:00",
@@ -342,7 +316,7 @@
           }
         ]
       },
-      "next15": {
+      "next14": {
         "broadcast_title": "Music For Days Like These w/ John Talabot (R)",
         "start_timestamp": "2025-04-08T04:00:00+01:00",
         "end_timestamp": "2025-04-08T05:00:00+01:00",
@@ -355,7 +329,7 @@
           }
         ]
       },
-      "next16": {
+      "next15": {
         "broadcast_title": "Perfect Lives w/ Bruno &amp; Daniel (R)",
         "start_timestamp": "2025-04-08T05:00:00+01:00",
         "end_timestamp": "2025-04-08T06:00:00+01:00",
@@ -368,7 +342,7 @@
           }
         ]
       },
-      "next17": {
+      "next16": {
         "broadcast_title": "The Head Zone w/ Ripley Johnson (R)",
         "start_timestamp": "2025-04-08T06:00:00+01:00",
         "end_timestamp": "2025-04-08T07:00:00+01:00",
@@ -380,105 +354,24 @@
             "type": "application/vnd.episode+json;charset=utf-8"
           }
         ]
+      },
+      "next17": {
+        "broadcast_title": "THE EARLY BIRD SHOW w/ GEM&amp;I",
+        "start_timestamp": "2025-04-08T07:00:00+01:00",
+        "end_timestamp": "2025-04-08T09:00:00+01:00",
+        "embeds": {},
+        "links": [
+          {
+            "href": "https://www.nts.live/api/v2/shows/early-bird/episodes/early-bird-gem-i-8th-april-2025",
+            "rel": "details",
+            "type": "application/vnd.episode+json;charset=utf-8"
+          }
+        ]
       }
     },
     {
       "channel_name": "2",
       "now": {
-        "broadcast_title": "DJ NOBU (R)",
-        "start_timestamp": "2025-04-07T04:00:00+01:00",
-        "end_timestamp": "2025-04-07T05:00:00+01:00",
-        "embeds": {
-          "details": {
-            "status": "published",
-            "updated": "2021-03-01T17:16:44+00:00",
-            "name": "DJ Nobu ",
-            "description": "Take a trip through the deep musical world of Japan's DJ Nobu, one of the world's most in-demand underground selectors. ",
-            "description_html": "<h3>Take a trip through the deep musical world of Japan's DJ Nobu, one of the world's most in-demand underground selectors. </h3>",
-            "external_links": [],
-            "moods": [
-              {
-                "id": "moods-no-talkin",
-                "value": "No Talkin"
-              },
-              {
-                "id": "moods-music-to-dance-to",
-                "value": "MUSIC TO DANCE TO"
-              },
-              {
-                "id": "moods-maximum-effort",
-                "value": "MAXIMUM EFFORT"
-              }
-            ],
-            "genres": [
-              {
-                "id": "genres-housetechno-techno",
-                "value": "Techno"
-              },
-              {
-                "id": "genres-housetechno-minimal",
-                "value": "Minimal"
-              },
-              {
-                "id": "genres-housetechno-techno-ambienttechno",
-                "value": "Ambient Techno"
-              }
-            ],
-            "location_short": "TKY",
-            "location_long": "Tokyo",
-            "intensity": "50",
-            "media": {
-              "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/69ce9dde-d632-492a-b904-0f2ab80d8566_1614556800.jpeg",
-              "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/69ce9dde-d632-492a-b904-0f2ab80d8566_1614556800.jpeg",
-              "background_medium": "https://media.ntslive.co.uk/resize/400x400/69ce9dde-d632-492a-b904-0f2ab80d8566_1614556800.jpeg",
-              "background_small": "https://media3.ntslive.co.uk/resize/200x200/69ce9dde-d632-492a-b904-0f2ab80d8566_1614556800.jpeg",
-              "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/69ce9dde-d632-492a-b904-0f2ab80d8566_1614556800.jpeg",
-              "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/69ce9dde-d632-492a-b904-0f2ab80d8566_1614556800.jpeg",
-              "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/69ce9dde-d632-492a-b904-0f2ab80d8566_1614556800.jpeg",
-              "picture_medium": "https://media.ntslive.co.uk/resize/400x400/69ce9dde-d632-492a-b904-0f2ab80d8566_1614556800.jpeg",
-              "picture_small": "https://media3.ntslive.co.uk/resize/200x200/69ce9dde-d632-492a-b904-0f2ab80d8566_1614556800.jpeg",
-              "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/69ce9dde-d632-492a-b904-0f2ab80d8566_1614556800.jpeg"
-            },
-            "episode_alias": "dj-nobu-26th-february-2021",
-            "show_alias": "dj-nobu",
-            "broadcast": "2021-02-26T12:00:00+00:00",
-            "mixcloud": "https://www.mixcloud.com/NTSRadio/dj-nobu-26th-february-2021/",
-            "audio_sources": [
-              {
-                "url": "https://www.mixcloud.com/NTSRadio/dj-nobu-26th-february-2021/",
-                "source": "mixcloud"
-              }
-            ],
-            "brand": {},
-            "embeds": {},
-            "links": [
-              {
-                "rel": "self",
-                "href": "https://www.nts.live/api/v2/shows/dj-nobu/episodes/dj-nobu-26th-february-2021",
-                "type": "application/vnd.episode+json;charset=utf-8"
-              },
-              {
-                "rel": "show",
-                "href": "https://www.nts.live/api/v2/shows/dj-nobu",
-                "type": "application/vnd.show+json;charset=utf-8"
-              },
-              {
-                "rel": "tracklist",
-                "href": "https://www.nts.live/api/v2/shows/dj-nobu/episodes/dj-nobu-26th-february-2021/tracklist",
-                "type": "application/vnd.track-list+json;charset=utf-8"
-              }
-            ]
-          }
-        },
-        "links": [
-          {
-            "href": "https://www.nts.live/api/v2/shows/dj-nobu/episodes/dj-nobu-26th-february-2021",
-            "rel": "details",
-            "type": "application/vnd.episode+json;charset=utf-8"
-          }
-        ]
-      },
-      "next": {
         "broadcast_title": "Courtesy (Kul\u00f8r) (R)",
         "start_timestamp": "2025-04-07T05:00:00+01:00",
         "end_timestamp": "2025-04-07T06:00:00+01:00",
@@ -562,11 +455,88 @@
           }
         ]
       },
-      "next2": {
+      "next": {
         "broadcast_title": "Light in the Attic w/ Emilee Booher (R)",
         "start_timestamp": "2025-04-07T06:00:00+01:00",
         "end_timestamp": "2025-04-07T08:00:00+01:00",
-        "embeds": {},
+        "embeds": {
+          "details": {
+            "status": "published",
+            "updated": "2023-09-12T17:35:11+00:00",
+            "name": "Light in the Attic w/ Emilee Booher",
+            "description": "Since starting in a basement apartment in Seattle back in 2001, Light In The Attic has established itself as one of the best and brightest reissue labels around. With releases ranging from D\u2019Angelo to Serge Gainsbourg, Lewis to Betty Davis, Sly Stone to Karen Dalton, LITA prides itself on the breadth of its output.",
+            "description_html": "<h3>Since starting in a basement apartment in Seattle back in 2001, Light In The Attic has established itself as one of the best and brightest reissue labels around. With releases ranging from D\u2019Angelo to Serge Gainsbourg, Lewis to Betty Davis, Sly Stone to Karen Dalton, LITA prides itself on the breadth of its output.</h3>",
+            "external_links": [
+              "https://twitter.com/lightintheattic",
+              "https://lightintheattic.net/",
+              "https://www.facebook.com/lightintheatticrecords"
+            ],
+            "moods": [
+              {
+                "id": "moods-minimal-talkin",
+                "value": "Minimal Talkin"
+              }
+            ],
+            "genres": [
+              {
+                "id": "genres-soulrhythm-funk",
+                "value": "Funk"
+              },
+              {
+                "id": "genres-rock-folk",
+                "value": "Folk"
+              },
+              {
+                "id": "genres-altrockpunk-artrock",
+                "value": "Art Rock"
+              }
+            ],
+            "location_short": "LA",
+            "location_long": "Los Angeles",
+            "intensity": "50",
+            "media": {
+              "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/440180f5-a951-44b9-85fb-793bcc2060c8_1500508800.jpeg",
+              "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/440180f5-a951-44b9-85fb-793bcc2060c8_1500508800.jpeg",
+              "background_medium": "https://media.ntslive.co.uk/resize/400x400/440180f5-a951-44b9-85fb-793bcc2060c8_1500508800.jpeg",
+              "background_small": "https://media3.ntslive.co.uk/resize/200x200/440180f5-a951-44b9-85fb-793bcc2060c8_1500508800.jpeg",
+              "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/440180f5-a951-44b9-85fb-793bcc2060c8_1500508800.jpeg",
+              "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/440180f5-a951-44b9-85fb-793bcc2060c8_1500508800.jpeg",
+              "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/440180f5-a951-44b9-85fb-793bcc2060c8_1500508800.jpeg",
+              "picture_medium": "https://media.ntslive.co.uk/resize/400x400/440180f5-a951-44b9-85fb-793bcc2060c8_1500508800.jpeg",
+              "picture_small": "https://media3.ntslive.co.uk/resize/200x200/440180f5-a951-44b9-85fb-793bcc2060c8_1500508800.jpeg",
+              "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/440180f5-a951-44b9-85fb-793bcc2060c8_1500508800.jpeg"
+            },
+            "episode_alias": "light-in-the-attic-1st-september-2023",
+            "show_alias": "light-in-the-attic",
+            "broadcast": "2023-09-01T19:00:00+00:00",
+            "mixcloud": "https://www.mixcloud.com/NTSRadio/light-in-the-attic-w-emilee-booher-1st-september-2023/",
+            "audio_sources": [
+              {
+                "url": "https://soundcloud.com/user-612196404/light-in-the-attic-w-emilee",
+                "source": "soundcloud"
+              }
+            ],
+            "brand": {},
+            "embeds": {},
+            "links": [
+              {
+                "rel": "self",
+                "href": "https://www.nts.live/api/v2/shows/light-in-the-attic/episodes/light-in-the-attic-1st-september-2023",
+                "type": "application/vnd.episode+json;charset=utf-8"
+              },
+              {
+                "rel": "show",
+                "href": "https://www.nts.live/api/v2/shows/light-in-the-attic",
+                "type": "application/vnd.show+json;charset=utf-8"
+              },
+              {
+                "rel": "tracklist",
+                "href": "https://www.nts.live/api/v2/shows/light-in-the-attic/episodes/light-in-the-attic-1st-september-2023/tracklist",
+                "type": "application/vnd.track-list+json;charset=utf-8"
+              }
+            ]
+          }
+        },
         "links": [
           {
             "href": "https://www.nts.live/api/v2/shows/light-in-the-attic/episodes/light-in-the-attic-1st-september-2023",
@@ -575,7 +545,7 @@
           }
         ]
       },
-      "next3": {
+      "next2": {
         "broadcast_title": "m00dtapes (R)",
         "start_timestamp": "2025-04-07T08:00:00+01:00",
         "end_timestamp": "2025-04-07T09:00:00+01:00",
@@ -588,7 +558,7 @@
           }
         ]
       },
-      "next4": {
+      "next3": {
         "broadcast_title": "Austral w/ AYLU (R)",
         "start_timestamp": "2025-04-07T09:00:00+01:00",
         "end_timestamp": "2025-04-07T10:00:00+01:00",
@@ -601,7 +571,7 @@
           }
         ]
       },
-      "next5": {
+      "next4": {
         "broadcast_title": "ORPHEU THE WIZARD (R)",
         "start_timestamp": "2025-04-07T10:00:00+01:00",
         "end_timestamp": "2025-04-07T11:00:00+01:00",
@@ -614,7 +584,7 @@
           }
         ]
       },
-      "next6": {
+      "next5": {
         "broadcast_title": "BLOODZ BOI",
         "start_timestamp": "2025-04-07T11:00:00+01:00",
         "end_timestamp": "2025-04-07T12:00:00+01:00",
@@ -627,7 +597,7 @@
           }
         ]
       },
-      "next7": {
+      "next6": {
         "broadcast_title": "Corin",
         "start_timestamp": "2025-04-07T12:00:00+01:00",
         "end_timestamp": "2025-04-07T13:00:00+01:00",
@@ -640,7 +610,7 @@
           }
         ]
       },
-      "next8": {
+      "next7": {
         "broadcast_title": "PAVEL MILYAKOV",
         "start_timestamp": "2025-04-07T13:00:00+01:00",
         "end_timestamp": "2025-04-07T14:00:00+01:00",
@@ -653,7 +623,7 @@
           }
         ]
       },
-      "next9": {
+      "next8": {
         "broadcast_title": "PALESTINIAN SOUND ARCHIVE",
         "start_timestamp": "2025-04-07T14:00:00+01:00",
         "end_timestamp": "2025-04-07T15:00:00+01:00",
@@ -666,7 +636,7 @@
           }
         ]
       },
-      "next10": {
+      "next9": {
         "broadcast_title": "SMERZ",
         "start_timestamp": "2025-04-07T16:00:00+01:00",
         "end_timestamp": "2025-04-07T17:00:00+01:00",
@@ -679,7 +649,7 @@
           }
         ]
       },
-      "next11": {
+      "next10": {
         "broadcast_title": "CLAIRE ROUSAY",
         "start_timestamp": "2025-04-07T17:00:00+01:00",
         "end_timestamp": "2025-04-07T18:00:00+01:00",
@@ -692,7 +662,7 @@
           }
         ]
       },
-      "next12": {
+      "next11": {
         "broadcast_title": "AMBIENT ABRACADABRA W/ SOFIE BIRCH",
         "start_timestamp": "2025-04-07T18:00:00+01:00",
         "end_timestamp": "2025-04-07T19:00:00+01:00",
@@ -705,7 +675,7 @@
           }
         ]
       },
-      "next13": {
+      "next12": {
         "broadcast_title": "Aaron Angell",
         "start_timestamp": "2025-04-07T19:00:00+01:00",
         "end_timestamp": "2025-04-07T20:00:00+01:00",
@@ -718,7 +688,7 @@
           }
         ]
       },
-      "next14": {
+      "next13": {
         "broadcast_title": "LE JARDIN W/ SARAH DAVACHI",
         "start_timestamp": "2025-04-07T20:00:00+01:00",
         "end_timestamp": "2025-04-07T21:00:00+01:00",
@@ -731,7 +701,7 @@
           }
         ]
       },
-      "next15": {
+      "next14": {
         "broadcast_title": "COMO LA FLOR W/ JAZMIN",
         "start_timestamp": "2025-04-07T21:00:00+01:00",
         "end_timestamp": "2025-04-07T22:00:00+01:00",
@@ -744,7 +714,7 @@
           }
         ]
       },
-      "next16": {
+      "next15": {
         "broadcast_title": "Day Care w/ The Alaia",
         "start_timestamp": "2025-04-07T22:00:00+01:00",
         "end_timestamp": "2025-04-08T00:00:00+01:00",
@@ -757,7 +727,7 @@
           }
         ]
       },
-      "next17": {
+      "next16": {
         "broadcast_title": "WHAT MEANS THE WORLD 2 U W/ THEO BARK",
         "start_timestamp": "2025-04-08T01:00:00+01:00",
         "end_timestamp": "2025-04-08T02:00:00+01:00",
@@ -765,6 +735,19 @@
         "links": [
           {
             "href": "https://www.nts.live/api/v2/shows/what-means-the-world-2-u/episodes/what-means-the-world-2-u-8th-april-2025",
+            "rel": "details",
+            "type": "application/vnd.episode+json;charset=utf-8"
+          }
+        ]
+      },
+      "next17": {
+        "broadcast_title": "Hollow Points Radio w/ Kenyon Sound",
+        "start_timestamp": "2025-04-08T02:00:00+01:00",
+        "end_timestamp": "2025-04-08T03:00:00+01:00",
+        "embeds": {},
+        "links": [
+          {
+            "href": "https://www.nts.live/api/v2/shows/hollow-points/episodes/hollow-points-8th-april-2025",
             "rel": "details",
             "type": "application/vnd.episode+json;charset=utf-8"
           }

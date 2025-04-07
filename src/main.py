@@ -3,32 +3,39 @@ import time
 import requests
 import json
 
-def print_current_sets():
-    with open('example.json','r',encoding='utf-8') as fp:
-        json_output = json.loads(fp.read())["results"]
-        #array of two dictionaries for each channel
-        raw_radio = [i for i in json_output]
+def print_current_sets(raw_radio):
+    for i in raw_radio:
+        details = i['now']['embeds']['details']
+        name = details['name']
+        desc = details['description']
+        genre_tmp = [j['value'] for j in details['genres']]
+        genre_list = ', '.join(map(str,genre_tmp))
         
-        #dictionaries
-        channel_one_details = raw_radio[0]['now']['embeds']['details']
-        channel_two_details = raw_radio[1]['now']['embeds']['details']
+        print("CHANNEL " + i["channel_name"] + " CURRENTLY PLAYING: " + name)
+        print("DESCRIPTION: " + desc)
+        print("GENRES: " + genre_list)
+        print()
 
-    #output
-    print("CHANNEL 1 CURRENTLY PLAYING: " + channel_one_details['name'])
-    print("DESCRIPTION: " + channel_one_details['description'])
-    print()
-    print("CHANNEL 2 CURRENTLY PLAYING: " + channel_two_details['name'])
-    print("DESCRIPTION: " + channel_two_details['description'])
+    print('[+] Radio Channel Overview SUCCESS')
 
+def print_upcoming_set(raw_radio, radio_channel):
+    radio_channel_index = int(radio_channel) - 1
+
+    channel_select = raw_radio[radio_channel_index]
+    next = channel_select['next']['broadcast_title']
+    print(next)
 
 def play_radio():
     NTS_CHANNEL_1 = 'https://stream-relay-geo.ntslive.net/stream'
     NTS_CHANNEL_2 = 'https://stream-relay-geo.ntslive.net/stream2'
+    with open('example.json','r',encoding='utf-8') as fp:
+        json_output = json.loads(fp.read())['results']
+        raw_radio = [i for i in json_output]
 
     radio_channel = ''
     radio_select = ''
 
-    print_current_sets()
+    print_current_sets(raw_radio)
     while(radio_channel != '1' and radio_channel != '2'):
         radio_channel = input("Select radio station 1 or 2: ")
 
@@ -45,9 +52,9 @@ def play_radio():
     print("[+] Player successfully initialized")
 
     player.play()
-    time.sleep(2)
-    print()
-    time.sleep(2)
+    time.sleep(1)
+    print_upcoming_set(raw_radio, radio_channel)
+    time.sleep(1)
 
     input("Press enter to stop")
 
