@@ -6,19 +6,9 @@ import json
 def print_current_sets():
     with open('example.json','r',encoding='utf-8') as fp:
         json_output = json.loads(fp.read())["results"]
-        #array of two dictionaries for each channel
-        raw_radio = [i for i in json_output]
-        
-        #dictionaries
-        channel_one_details = raw_radio[0]['now']['embeds']['details']
-        channel_two_details = raw_radio[1]['now']['embeds']['details']
+        channel_info = [i["channel_name"] for i in json_output]
+        print(channel_info)
 
-    #output
-    print("CHANNEL 1 CURRENTLY PLAYING: " + channel_one_details['name'])
-    print("DESCRIPTION: " + channel_one_details['description'])
-    print()
-    print("CHANNEL 2 CURRENTLY PLAYING: " + channel_two_details['name'])
-    print("DESCRIPTION: " + channel_two_details['description'])
 
 
 def play_radio():
@@ -29,8 +19,9 @@ def play_radio():
     radio_select = ''
 
     print_current_sets()
-    while(radio_channel != '1' and radio_channel != '2'):
+    while(radio_channel != '1' or radio_channel != '2'):
         radio_channel = input("Select radio station 1 or 2: ")
+        print('[+] radio_channel value: ' + radio_channel)
 
     print("[+] Selection loop successfully exited")
 
@@ -45,9 +36,7 @@ def play_radio():
     print("[+] Player successfully initialized")
 
     player.play()
-    time.sleep(2)
-    print()
-    time.sleep(2)
+    time.sleep(1)
 
     input("Press enter to stop")
 
@@ -76,7 +65,7 @@ def main():
         print("Welcome to NTS Radio tools.")
         print("(1) 24/7 Radio Channels")
         print("(2) Search Archived Mixes")
-        print("(3) Explore Infinite Mixtapes")
+        print("(3) Search Archived Mixes")
         print("(exit) Ends Program")
 
         menu_primitive = input("Enter valid menu options: ")
