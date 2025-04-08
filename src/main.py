@@ -16,6 +16,47 @@ def display_menu_options():
     print("(3) Explore Infinite Mixtapes")
     print("(exit) Ends Program")
 
+def display_infinite_mixtapes():
+    print("INFINITE MIXTAPES SELECTION")
+    print('(1) Poolside')
+    print('(2) Slow Focus')
+    print('(3) Low Key')
+    print('(4) Memory Lane')
+    print('(5) 4 To The Floor')
+    print('(6) Island Time')
+    print('(7) The Tube')
+    print('(8) Sheet Music')
+    print('(9) Feelings')
+    print('(10) Expansions')
+    print('(11) Rap House')
+    print('(12) Otaku')
+    print('(13) The Pit')
+    print('(14) Field Recordings')
+
+def handle_mix_options(choice):
+    MIX_ENDPT = {
+        '1':'4',
+        '2':'',
+        '3':'2',
+        '4':'6',
+        '5':'4',
+        '6':'21',
+        '7':'26',
+        '8':'35',
+        '9':'27',
+        '10':'3',
+        '11':'22',
+        '12':'36',
+        '13':'34',
+        '14':'23'
+    }
+
+    if choice not in MIX_ENDPT:
+        print("ERROR: INVALID CHOICE")
+        return
+
+    return MIX_ENDPT[choice]
+
 def handle_menu_options(choice):
     if choice == '1':
         play_radio()
@@ -135,20 +176,34 @@ def search_archive():
 
     user_search = ''
 
-    print("RECENTLY ADDED SHOWS:")
-    i = 0
-    for i in range(len(all_results)):
-        print(f"{i+1}. {all_results[i]['name']}")
-    print("(exit) exit")
-
     while(True):
+        print("RECENTLY ADDED SHOWS:")
+        i = 0
+        for i in range(len(all_results)):
+            print(f"{i+1}. {all_results[i]['name']}")
+        print("(exit) exit")
         user_search = input("Enter menu option: ")
         if user_search == 'exit':
             break
         handle_search_options(user_search, all_results)
 
 def search_infinite_mixtapes():
-    pass
+    INFINITE_MIX_URL = 'https://stream-mixtape-geo.ntslive.net/mixtape'
+
+    display_infinite_mixtapes()
+    while(True):
+        user_mix = input("Select mixtape")
+        if(user_mix == 'exit'):
+            return
+        else:
+            mix_select = handle_mix_options(user_mix).strip()
+            INFINITE_MIX_URL += mix_select
+            break
+
+    player = vlc.MediaPlayer(INFINITE_MIX_URL)
+    player.play()
+    input("ENTER TO STOP")
+    player.stop()
 
 def play_radio():
     API_RADIO = 'https://www.nts.live/api/v2/live'
