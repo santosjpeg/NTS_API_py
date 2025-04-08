@@ -1,7 +1,7 @@
 {
   "metadata": {
     "resultset": {
-      "count": 77437,
+      "count": 77456,
       "offset": 0,
       "limit": 12
     }
@@ -9,7 +9,7 @@
   "results": [
     {
       "status": "published",
-      "updated": "2025-04-07T12:55:36+00:00",
+      "updated": "2025-04-08T14:39:26+00:00",
       "name": "The NTS Breakfast Show w/ Flo",
       "description": "Breakfast, in Flo motion - served by Flo Dill, every Monday to Wednesday. ",
       "description_html": "<h3>Breakfast, in Flo motion - served by Flo Dill, every Monday to Wednesday. </h3>",
@@ -25,16 +25,16 @@
       ],
       "genres": [
         {
-          "id": "genres-rock-folk",
-          "value": "Folk"
+          "id": "genres-soulrhythm-funk",
+          "value": "Funk"
         },
         {
-          "id": "genres-altrockpunk-indie",
-          "value": "Indie Rock"
+          "id": "genres-postpunkwave-synthpop",
+          "value": "Synth Pop"
         },
         {
-          "id": "genres-rock-soft-rock",
-          "value": "Soft Rock"
+          "id": "genres-other-leftfield-pop",
+          "value": "Leftfield Pop"
         }
       ],
       "location_short": "LDN",
@@ -52,13 +52,13 @@
         "picture_small": "https://media3.ntslive.co.uk/resize/200x200/7dbd1c57-3844-4a0b-853e-1163141e2938_1687824000.jpeg",
         "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/7dbd1c57-3844-4a0b-853e-1163141e2938_1687824000.jpeg"
       },
-      "episode_alias": "the-breakfast-show-flo-7th-april-2025",
+      "episode_alias": "the-breakfast-show-flo-8th-april-2025",
       "show_alias": "the-breakfast-show-flo",
-      "broadcast": "2025-04-07T06:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/the-nts-breakfast-show-w-flo-7th-april-2025/",
+      "broadcast": "2025-04-08T08:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/the-nts-breakfast-show-w-flo-8th-april-2025/",
       "audio_sources": [
         {
-          "url": "https://soundcloud.com/user-643553014/the-nts-breakfast-606684909",
+          "url": "https://soundcloud.com/user-643553014/the-nts-breakfast-542355605",
           "source": "soundcloud"
         }
       ],
@@ -67,7 +67,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/the-breakfast-show-flo/episodes/the-breakfast-show-flo-7th-april-2025",
+          "href": "https://www.nts.live/api/v2/shows/the-breakfast-show-flo/episodes/the-breakfast-show-flo-8th-april-2025",
           "type": "application/vnd.episode+json;charset=utf-8"
         },
         {
@@ -77,17 +77,17 @@
         },
         {
           "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/the-breakfast-show-flo/episodes/the-breakfast-show-flo-7th-april-2025/tracklist",
+          "href": "https://www.nts.live/api/v2/shows/the-breakfast-show-flo/episodes/the-breakfast-show-flo-8th-april-2025/tracklist",
           "type": "application/vnd.track-list+json;charset=utf-8"
         }
       ]
     },
     {
       "status": "published",
-      "updated": "2025-04-07T12:18:59+00:00",
-      "name": "The Early Bird Show w/ BRADEN WELLS",
-      "description": "Introducing The Early Bird Show - our radio offering for morning people, hosted by Maria Somerville (Mondays and Tuesdays), Spirit Blue (Wednesdays and Thursdays) and Jack Rollo (Fridays). Weekday mornings, 7-9am.",
-      "description_html": "<h3>Introducing The Early Bird Show - our radio offering for morning people, hosted by Maria Somerville (Mondays and Tuesdays), Spirit Blue (Wednesdays and Thursdays) and Jack Rollo (Fridays). Weekday mornings, 7-9am.</h3>",
+      "updated": "2025-04-08T15:08:46+00:00",
+      "name": "The Early Bird Show w/ GEM&I",
+      "description": "This melody brings back a memory\nas i open my eyes\nquiet are the skies\nmy mornings breathe in tune\nA journal of songs that lift my spirit and open my heart. Singing them on repeat.\nFrom Darija to Mandarin, join me in singing along to my favorite tracks\u2014both those with lyrics and the instrumental ones.",
+      "description_html": "<h3>This melody brings back a memory\nas i open my eyes\nquiet are the skies\nmy mornings breathe in tune</h3>\n<p>A journal of songs that lift my spirit and open my heart. Singing them on repeat.\nFrom Darija to Mandarin, join me in singing along to my favorite tracks\u2014both those with lyrics and the instrumental ones.</p>",
       "external_links": [],
       "moods": [
         {
@@ -95,29 +95,42 @@
           "value": "LEAN BACK"
         }
       ],
-      "genres": [],
-      "location_short": null,
-      "location_long": "London",
+      "genres": [
+        {
+          "id": "genres-ambientnewage-ambient",
+          "value": "Ambient"
+        },
+        {
+          "id": "genres-other-leftfield-pop",
+          "value": "Leftfield Pop"
+        },
+        {
+          "id": "genres-altrockpunk-dreampop",
+          "value": "Dream Pop"
+        }
+      ],
+      "location_short": "BRS",
+      "location_long": "Brussels",
       "intensity": null,
       "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/5bd68d48-66f9-439f-9380-7c3d1a770a5b_1743984000.jpeg",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/5bd68d48-66f9-439f-9380-7c3d1a770a5b_1743984000.jpeg",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/5bd68d48-66f9-439f-9380-7c3d1a770a5b_1743984000.jpeg",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/5bd68d48-66f9-439f-9380-7c3d1a770a5b_1743984000.jpeg",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/5bd68d48-66f9-439f-9380-7c3d1a770a5b_1743984000.jpeg",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/5bd68d48-66f9-439f-9380-7c3d1a770a5b_1743984000.jpeg",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/5bd68d48-66f9-439f-9380-7c3d1a770a5b_1743984000.jpeg",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/5bd68d48-66f9-439f-9380-7c3d1a770a5b_1743984000.jpeg",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/5bd68d48-66f9-439f-9380-7c3d1a770a5b_1743984000.jpeg",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/5bd68d48-66f9-439f-9380-7c3d1a770a5b_1743984000.jpeg"
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/4ab3d4e5-8ac0-4e6c-a859-c89c66446768_1743897600.jpeg"
       },
-      "episode_alias": "early-bird-braden-wells-7th-april-2025",
+      "episode_alias": "early-bird-gem-i-7th-april-2025",
       "show_alias": "early-bird",
-      "broadcast": "2025-04-07T06:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/the-early-bird-show-w-braden-wells-7th-april-2025/",
+      "broadcast": "2025-04-08T06:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/the-early-bird-show-w-gemi-8th-april-2025/",
       "audio_sources": [
         {
-          "url": "https://soundcloud.com/user-643553014/the-early-bird-show-w-braden-2",
+          "url": "https://soundcloud.com/user-643553014/the-early-bird-show-w-gem-i",
           "source": "soundcloud"
         }
       ],
@@ -126,7 +139,7 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/early-bird/episodes/early-bird-braden-wells-7th-april-2025",
+          "href": "https://www.nts.live/api/v2/shows/early-bird/episodes/early-bird-gem-i-7th-april-2025",
           "type": "application/vnd.episode+json;charset=utf-8"
         },
         {
@@ -136,20 +149,546 @@
         },
         {
           "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/early-bird/episodes/early-bird-braden-wells-7th-april-2025/tracklist",
+          "href": "https://www.nts.live/api/v2/shows/early-bird/episodes/early-bird-gem-i-7th-april-2025/tracklist",
           "type": "application/vnd.track-list+json;charset=utf-8"
         }
       ]
     },
     {
       "status": "published",
-      "updated": "2025-04-07T11:57:33+00:00",
-      "name": "Otologic",
-      "description": "Australian duo Otologic traverse wave, post punk, outsider club & dubwise meanderings in constant delay.",
-      "description_html": "<h3>Australian duo Otologic traverse wave, post punk, outsider club & dubwise meanderings in constant delay.</h3>",
+      "updated": "2025-04-08T12:03:08+00:00",
+      "name": "All Styles All Smiles w/ Javybz",
+      "description": "A genre-spanning show focusing on rare grooves, classics, new productions and obscurities with a worldwide perspective and a spotlight on soul, synth pop and leftfield house. All curated with love by Javybz - Anya and Julia. ",
+      "description_html": "<h3>A genre-spanning show focusing on rare grooves, classics, new productions and obscurities with a worldwide perspective and a spotlight on soul, synth pop and leftfield house. All curated with love by Javybz - Anya and Julia. </h3>",
       "external_links": [
-        "https://twitter.com/otologicdj",
-        "https://www.facebook.com/Otologic"
+        "https://twitter.com/javybzdjs",
+        "https://www.instagram.com/ajavybz/?hl=en",
+        "https://www.facebook.com/Javybz/"
+      ],
+      "moods": [
+        {
+          "id": "moods-safe-for-work",
+          "value": "SAFE FOR WORK"
+        }
+      ],
+      "genres": [
+        {
+          "id": "genres-discoboogie-italo",
+          "value": "Italo"
+        },
+        {
+          "id": "genres-postpunkwave-synthpop",
+          "value": "Synth Pop"
+        },
+        {
+          "id": "genres-rock-soft-rock",
+          "value": "Soft Rock"
+        },
+        {
+          "id": "genres-discoboogie-classicdisco",
+          "value": "Classic Disco"
+        }
+      ],
+      "location_short": "LIS",
+      "location_long": "Lisbon",
+      "intensity": "46",
+      "media": {
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/d1cc5d37-8d9e-49d6-bf1d-8f098ab6b776_1743984000.jpeg",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/d1cc5d37-8d9e-49d6-bf1d-8f098ab6b776_1743984000.jpeg",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/d1cc5d37-8d9e-49d6-bf1d-8f098ab6b776_1743984000.jpeg",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/d1cc5d37-8d9e-49d6-bf1d-8f098ab6b776_1743984000.jpeg",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/d1cc5d37-8d9e-49d6-bf1d-8f098ab6b776_1743984000.jpeg",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/d1cc5d37-8d9e-49d6-bf1d-8f098ab6b776_1743984000.jpeg",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/d1cc5d37-8d9e-49d6-bf1d-8f098ab6b776_1743984000.jpeg",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/d1cc5d37-8d9e-49d6-bf1d-8f098ab6b776_1743984000.jpeg",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/d1cc5d37-8d9e-49d6-bf1d-8f098ab6b776_1743984000.jpeg",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/d1cc5d37-8d9e-49d6-bf1d-8f098ab6b776_1743984000.jpeg"
+      },
+      "episode_alias": "all-styles-all-smiles-8th-april-2025",
+      "show_alias": "all-styles-all-smiles",
+      "broadcast": "2025-04-07T23:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/all-styles-all-smiles-w-javybz-8th-april-2025/",
+      "audio_sources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/all-styles-all-smiles-w-4",
+          "source": "soundcloud"
+        }
+      ],
+      "brand": {},
+      "embeds": {},
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://www.nts.live/api/v2/shows/all-styles-all-smiles/episodes/all-styles-all-smiles-8th-april-2025",
+          "type": "application/vnd.episode+json;charset=utf-8"
+        },
+        {
+          "rel": "show",
+          "href": "https://www.nts.live/api/v2/shows/all-styles-all-smiles",
+          "type": "application/vnd.show+json;charset=utf-8"
+        },
+        {
+          "rel": "tracklist",
+          "href": "https://www.nts.live/api/v2/shows/all-styles-all-smiles/episodes/all-styles-all-smiles-8th-april-2025/tracklist",
+          "type": "application/vnd.track-list+json;charset=utf-8"
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "updated": "2025-04-08T13:29:50+00:00",
+      "name": "Field Research: Brassica",
+      "description": "Blueprints in sounds, stones to sparks, lead to gold, with Hong-Kong-born, Utrecht-based electronic musician gyrofield.",
+      "description_html": "<h3>Blueprints in sounds, stones to sparks, lead to gold, with Hong-Kong-born, Utrecht-based electronic musician gyrofield.</h3>",
+      "external_links": [],
+      "moods": [
+        {
+          "id": "moods-no-talkin",
+          "value": "No Talkin"
+        },
+        {
+          "id": "moods-maximum-effort",
+          "value": "MAXIMUM EFFORT"
+        }
+      ],
+      "genres": [
+        {
+          "id": "genres-housetechno-techno",
+          "value": "Techno"
+        },
+        {
+          "id": "genres-ukdance-drumandbass",
+          "value": "Drum & Bass"
+        }
+      ],
+      "location_short": null,
+      "location_long": null,
+      "intensity": "50",
+      "media": {
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/2c6a8ba2-16f3-4943-9e67-359569a83a53_1743552000.png",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/2c6a8ba2-16f3-4943-9e67-359569a83a53_1743552000.png",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/2c6a8ba2-16f3-4943-9e67-359569a83a53_1743552000.png",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/2c6a8ba2-16f3-4943-9e67-359569a83a53_1743552000.png",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/2c6a8ba2-16f3-4943-9e67-359569a83a53_1743552000.png",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/2c6a8ba2-16f3-4943-9e67-359569a83a53_1743552000.png",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/2c6a8ba2-16f3-4943-9e67-359569a83a53_1743552000.png",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/2c6a8ba2-16f3-4943-9e67-359569a83a53_1743552000.png",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/2c6a8ba2-16f3-4943-9e67-359569a83a53_1743552000.png",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/2c6a8ba2-16f3-4943-9e67-359569a83a53_1743552000.png"
+      },
+      "episode_alias": "gyrofield-7th-april-2025",
+      "show_alias": "gyrofield",
+      "broadcast": "2025-04-07T22:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/field-research-brassica-7th-april-2025/",
+      "audio_sources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/field-research-brassica-070425",
+          "source": "soundcloud"
+        }
+      ],
+      "brand": {},
+      "embeds": {},
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://www.nts.live/api/v2/shows/gyrofield/episodes/gyrofield-7th-april-2025",
+          "type": "application/vnd.episode+json;charset=utf-8"
+        },
+        {
+          "rel": "show",
+          "href": "https://www.nts.live/api/v2/shows/gyrofield",
+          "type": "application/vnd.show+json;charset=utf-8"
+        },
+        {
+          "rel": "tracklist",
+          "href": "https://www.nts.live/api/v2/shows/gyrofield/episodes/gyrofield-7th-april-2025/tracklist",
+          "type": "application/vnd.track-list+json;charset=utf-8"
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "updated": "2025-04-08T15:15:12+00:00",
+      "name": "Organ Tapes w/ jackzebra",
+      "description": "China's viral underground rap sensation Jackzebra covers Organ Tapes this month.",
+      "description_html": "<h3>China's viral underground rap sensation Jackzebra covers Organ Tapes this month.</h3>",
+      "external_links": [
+        "https://www.instagram.com/jackzebra626/?hl=en"
+      ],
+      "moods": [
+        {
+          "id": "moods-no-talkin",
+          "value": "No Talkin"
+        },
+        {
+          "id": "moods-don-t-assume",
+          "value": "DON\u2019T ASSUME"
+        }
+      ],
+      "genres": [
+        {
+          "id": "genres-avantgarde-experimental",
+          "value": "Experimental"
+        },
+        {
+          "id": "genres-hiphoprandb-rap",
+          "value": "Rap"
+        }
+      ],
+      "location_short": "LDN",
+      "location_long": "London",
+      "intensity": null,
+      "media": {
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/a4da8565-9661-4f7c-8d86-63b7a46efae8_1743984000.jpeg",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/a4da8565-9661-4f7c-8d86-63b7a46efae8_1743984000.jpeg",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/a4da8565-9661-4f7c-8d86-63b7a46efae8_1743984000.jpeg",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/a4da8565-9661-4f7c-8d86-63b7a46efae8_1743984000.jpeg",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/a4da8565-9661-4f7c-8d86-63b7a46efae8_1743984000.jpeg",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/a4da8565-9661-4f7c-8d86-63b7a46efae8_1743984000.jpeg",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/a4da8565-9661-4f7c-8d86-63b7a46efae8_1743984000.jpeg",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/a4da8565-9661-4f7c-8d86-63b7a46efae8_1743984000.jpeg",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/a4da8565-9661-4f7c-8d86-63b7a46efae8_1743984000.jpeg",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/a4da8565-9661-4f7c-8d86-63b7a46efae8_1743984000.jpeg"
+      },
+      "episode_alias": "organ-tapes-7th-april-2025",
+      "show_alias": "organ-tapes",
+      "broadcast": "2025-04-07T21:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/organ-tapes-w-jackzebra-7th-april-2025/",
+      "audio_sources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/organ-tapes-w-jackzebra-070425",
+          "source": "soundcloud"
+        }
+      ],
+      "brand": {},
+      "embeds": {},
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://www.nts.live/api/v2/shows/organ-tapes/episodes/organ-tapes-7th-april-2025",
+          "type": "application/vnd.episode+json;charset=utf-8"
+        },
+        {
+          "rel": "show",
+          "href": "https://www.nts.live/api/v2/shows/organ-tapes",
+          "type": "application/vnd.show+json;charset=utf-8"
+        },
+        {
+          "rel": "tracklist",
+          "href": "https://www.nts.live/api/v2/shows/organ-tapes/episodes/organ-tapes-7th-april-2025/tracklist",
+          "type": "application/vnd.track-list+json;charset=utf-8"
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "updated": "2025-04-08T13:32:57+00:00",
+      "name": "WOODGRAIN w/ Leo Gibbon",
+      "description": "Dennis specialises in selections ranging from new wave electronics, lo-fi hip-hop, downtempo house and everything in-between. Also a member of the wider music and production group, Woodgrain Vicious. ",
+      "description_html": "<h3>Dennis specialises in selections ranging from new wave electronics, lo-fi hip-hop, downtempo house and everything in-between. Also a member of the wider music and production group, Woodgrain Vicious. </h3>",
+      "external_links": [
+        "https://en-gb.facebook.com/baadnewsbybaad/",
+        "https://twitter.com/baadnews_?lang=cs"
+      ],
+      "moods": [
+        {
+          "id": "moods-no-talkin",
+          "value": "No Talkin"
+        },
+        {
+          "id": "moods-don-t-assume",
+          "value": "DON\u2019T ASSUME"
+        }
+      ],
+      "genres": [
+        {
+          "id": "genres-housetechno-techno",
+          "value": "Techno"
+        },
+        {
+          "id": "genres-ukdance-dubstep",
+          "value": "Dubstep"
+        }
+      ],
+      "location_short": "LDN",
+      "location_long": "London",
+      "intensity": "50",
+      "media": {
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/5a864780-d29e-4d6d-8233-b2c554cf6513_1719878400.jpeg",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/5a864780-d29e-4d6d-8233-b2c554cf6513_1719878400.jpeg",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/5a864780-d29e-4d6d-8233-b2c554cf6513_1719878400.jpeg",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/5a864780-d29e-4d6d-8233-b2c554cf6513_1719878400.jpeg",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/5a864780-d29e-4d6d-8233-b2c554cf6513_1719878400.jpeg",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/0aba0481-40b7-472e-87ea-671e924d3369_1727049600.jpeg",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/0aba0481-40b7-472e-87ea-671e924d3369_1727049600.jpeg",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/0aba0481-40b7-472e-87ea-671e924d3369_1727049600.jpeg",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/0aba0481-40b7-472e-87ea-671e924d3369_1727049600.jpeg",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/0aba0481-40b7-472e-87ea-671e924d3369_1727049600.jpeg"
+      },
+      "episode_alias": "baadnews-7th-april-2025",
+      "show_alias": "baadnews",
+      "broadcast": "2025-04-07T20:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/woodgrain-w-leo-gibbon-7th-april-2025/",
+      "audio_sources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/woodgrain-w-leo-gibbon-070425",
+          "source": "soundcloud"
+        }
+      ],
+      "brand": {},
+      "embeds": {},
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://www.nts.live/api/v2/shows/baadnews/episodes/baadnews-7th-april-2025",
+          "type": "application/vnd.episode+json;charset=utf-8"
+        },
+        {
+          "rel": "show",
+          "href": "https://www.nts.live/api/v2/shows/baadnews",
+          "type": "application/vnd.show+json;charset=utf-8"
+        },
+        {
+          "rel": "tracklist",
+          "href": "https://www.nts.live/api/v2/shows/baadnews/episodes/baadnews-7th-april-2025/tracklist",
+          "type": "application/vnd.track-list+json;charset=utf-8"
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "updated": "2025-04-08T20:06:27+00:00",
+      "name": "Suncut",
+      "description": "Tune in to the sound of SUNCUT, boasting a heartfelt selection of some favourite 45\u2019s through to classic bonafide soulful jams.",
+      "description_html": "<h3>Tune in to the sound of SUNCUT, boasting a heartfelt selection of some favourite 45\u2019s through to classic bonafide soulful jams.</h3>",
+      "external_links": [
+        "https://twitter.com/suncutrecords",
+        "http://suncutrecords.com"
+      ],
+      "moods": [
+        {
+          "id": "moods-minimal-talkin",
+          "value": "Minimal Talkin"
+        },
+        {
+          "id": "moods-safe-for-work",
+          "value": "SAFE FOR WORK"
+        }
+      ],
+      "genres": [
+        {
+          "id": "genres-soulrhythm-soul",
+          "value": "Soul"
+        },
+        {
+          "id": "genres-discoboogie-classicdisco",
+          "value": "Classic Disco"
+        },
+        {
+          "id": "genres-jazz-souljazz",
+          "value": "Soul Jazz"
+        }
+      ],
+      "location_short": "LDN",
+      "location_long": "London",
+      "intensity": "40",
+      "media": {
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/fe43927b-8650-4ff8-bfe9-bbfa6a49aa6b_1743984000.jpeg",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/fe43927b-8650-4ff8-bfe9-bbfa6a49aa6b_1743984000.jpeg",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/fe43927b-8650-4ff8-bfe9-bbfa6a49aa6b_1743984000.jpeg",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/fe43927b-8650-4ff8-bfe9-bbfa6a49aa6b_1743984000.jpeg",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/fe43927b-8650-4ff8-bfe9-bbfa6a49aa6b_1743984000.jpeg",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/fe43927b-8650-4ff8-bfe9-bbfa6a49aa6b_1743984000.jpeg",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/fe43927b-8650-4ff8-bfe9-bbfa6a49aa6b_1743984000.jpeg",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/fe43927b-8650-4ff8-bfe9-bbfa6a49aa6b_1743984000.jpeg",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/fe43927b-8650-4ff8-bfe9-bbfa6a49aa6b_1743984000.jpeg",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/fe43927b-8650-4ff8-bfe9-bbfa6a49aa6b_1743984000.jpeg"
+      },
+      "episode_alias": "sun-cut-7th-april-2025",
+      "show_alias": "sun-cut",
+      "broadcast": "2025-04-07T19:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/suncut-7th-april-2025/",
+      "audio_sources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/suncut-070425",
+          "source": "soundcloud"
+        }
+      ],
+      "brand": {},
+      "embeds": {},
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://www.nts.live/api/v2/shows/sun-cut/episodes/sun-cut-7th-april-2025",
+          "type": "application/vnd.episode+json;charset=utf-8"
+        },
+        {
+          "rel": "show",
+          "href": "https://www.nts.live/api/v2/shows/sun-cut",
+          "type": "application/vnd.show+json;charset=utf-8"
+        },
+        {
+          "rel": "tracklist",
+          "href": "https://www.nts.live/api/v2/shows/sun-cut/episodes/sun-cut-7th-april-2025/tracklist",
+          "type": "application/vnd.track-list+json;charset=utf-8"
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "updated": "2025-04-08T09:23:29+00:00",
+      "name": "Aaron Angell",
+      "description": "Visual artist and ceramicist Aaron Angell plays a vinyl-only monthly selection of music from his collection - usually focussing on guitar soli, privately pressed UK folk, psychedelia, and the occult new age.",
+      "description_html": "<h3>Visual artist and ceramicist Aaron Angell plays a vinyl-only monthly selection of music from his collection - usually focussing on guitar soli, privately pressed UK folk, psychedelia, and the occult new age.</h3>",
+      "external_links": [
+        "https://twitter.com/aaronangell1?lang=en"
+      ],
+      "moods": [
+        {
+          "id": "moods-minimal-talkin",
+          "value": "Minimal Talkin"
+        }
+      ],
+      "genres": [
+        {
+          "id": "genres-rock-folk",
+          "value": "Folk"
+        },
+        {
+          "id": "genres-rock-psychadelicfolk",
+          "value": "Psychedelic Folk"
+        }
+      ],
+      "location_short": "LDN",
+      "location_long": "London",
+      "intensity": null,
+      "media": {
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/30c58e81-d530-46aa-b8c0-5e4b8c8b8aa8_1743984000.jpeg",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/30c58e81-d530-46aa-b8c0-5e4b8c8b8aa8_1743984000.jpeg",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/30c58e81-d530-46aa-b8c0-5e4b8c8b8aa8_1743984000.jpeg",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/30c58e81-d530-46aa-b8c0-5e4b8c8b8aa8_1743984000.jpeg",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/30c58e81-d530-46aa-b8c0-5e4b8c8b8aa8_1743984000.jpeg",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/30c58e81-d530-46aa-b8c0-5e4b8c8b8aa8_1743984000.jpeg",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/30c58e81-d530-46aa-b8c0-5e4b8c8b8aa8_1743984000.jpeg",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/30c58e81-d530-46aa-b8c0-5e4b8c8b8aa8_1743984000.jpeg",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/30c58e81-d530-46aa-b8c0-5e4b8c8b8aa8_1743984000.jpeg",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/30c58e81-d530-46aa-b8c0-5e4b8c8b8aa8_1743984000.jpeg"
+      },
+      "episode_alias": "aaron-angell-7th-april-2025",
+      "show_alias": "aaron-angell",
+      "broadcast": "2025-04-07T18:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/aaron-angell-7th-april-2025/",
+      "audio_sources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/aaron-angell-070425",
+          "source": "soundcloud"
+        }
+      ],
+      "brand": {},
+      "embeds": {},
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://www.nts.live/api/v2/shows/aaron-angell/episodes/aaron-angell-7th-april-2025",
+          "type": "application/vnd.episode+json;charset=utf-8"
+        },
+        {
+          "rel": "show",
+          "href": "https://www.nts.live/api/v2/shows/aaron-angell",
+          "type": "application/vnd.show+json;charset=utf-8"
+        },
+        {
+          "rel": "tracklist",
+          "href": "https://www.nts.live/api/v2/shows/aaron-angell/episodes/aaron-angell-7th-april-2025/tracklist",
+          "type": "application/vnd.track-list+json;charset=utf-8"
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "updated": "2025-04-08T14:25:59+00:00",
+      "name": "Club Coco w/ Coco Mar\u00eda",
+      "description": "Welcome to Club Coco: a place where globe-trotting vinyl hunter Coco Mar\u00eda shares her joyous discoveries - jazz, fusion, international pop, vintage latin music of all flavours\u2026",
+      "description_html": "<h3>Welcome to Club Coco: a place where globe-trotting vinyl hunter Coco Mar\u00eda shares her joyous discoveries - jazz, fusion, international pop, vintage latin music of all flavours\u2026</h3>",
+      "external_links": [],
+      "moods": [
+        {
+          "id": "moods-safe-for-work",
+          "value": "SAFE FOR WORK"
+        }
+      ],
+      "genres": [
+        {
+          "id": "genres-latinbrazil-latinjazz",
+          "value": "Latin Jazz"
+        },
+        {
+          "id": "genres-latinbrazil-musicapopular",
+          "value": "M\u00fasica Popular Brasileira"
+        },
+        {
+          "id": "genres-soulrhythm-soul",
+          "value": "Soul"
+        },
+        {
+          "id": "genres-discoboogie-boogie",
+          "value": "Boogie"
+        }
+      ],
+      "location_short": "AMS",
+      "location_long": "Amsterdam",
+      "intensity": "50",
+      "media": {
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/71aebca6-d1d7-438f-abf5-fde74021dfb6_1743724800.jpeg",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/71aebca6-d1d7-438f-abf5-fde74021dfb6_1743724800.jpeg",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/71aebca6-d1d7-438f-abf5-fde74021dfb6_1743724800.jpeg",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/71aebca6-d1d7-438f-abf5-fde74021dfb6_1743724800.jpeg",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/71aebca6-d1d7-438f-abf5-fde74021dfb6_1743724800.jpeg",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/71aebca6-d1d7-438f-abf5-fde74021dfb6_1743724800.jpeg",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/71aebca6-d1d7-438f-abf5-fde74021dfb6_1743724800.jpeg",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/71aebca6-d1d7-438f-abf5-fde74021dfb6_1743724800.jpeg",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/71aebca6-d1d7-438f-abf5-fde74021dfb6_1743724800.jpeg",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/71aebca6-d1d7-438f-abf5-fde74021dfb6_1743724800.jpeg"
+      },
+      "episode_alias": "club-coco-coco-maria-7th-april-2025",
+      "show_alias": "club-coco-coco-maria",
+      "broadcast": "2025-04-07T17:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/club-coco-w-coco-mar%C3%ADa-7th-april-2025/",
+      "audio_sources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/club-coco-w-coco-maria-070425",
+          "source": "soundcloud"
+        }
+      ],
+      "brand": {},
+      "embeds": {},
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://www.nts.live/api/v2/shows/club-coco-coco-maria/episodes/club-coco-coco-maria-7th-april-2025",
+          "type": "application/vnd.episode+json;charset=utf-8"
+        },
+        {
+          "rel": "show",
+          "href": "https://www.nts.live/api/v2/shows/club-coco-coco-maria",
+          "type": "application/vnd.show+json;charset=utf-8"
+        },
+        {
+          "rel": "tracklist",
+          "href": "https://www.nts.live/api/v2/shows/club-coco-coco-maria/episodes/club-coco-coco-maria-7th-april-2025/tracklist",
+          "type": "application/vnd.track-list+json;charset=utf-8"
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "updated": "2025-04-08T16:58:48+00:00",
+      "name": "Claire Rousay: Prahnas Focus",
+      "description": "Prahnas is the project of Sharp Woolston from Fayetteville Arkansas USA. Prolific, hidden, and far too underplayed, Prahnas has released hundreds of songs digitally, physically, collaboratively, and solo. This show features a selection of tracks from a collection of 17 Prahnas releases under the shared title \u201ctoy key\u201d (1-17) released between 2012 and 2022 as well as an in depth interview covering the projects origins, workings, equipment list, and current happenings.",
+      "description_html": "<h3>Prahnas is the project of Sharp Woolston from Fayetteville Arkansas USA. Prolific, hidden, and far too underplayed, Prahnas has released hundreds of songs digitally, physically, collaboratively, and solo. This show features a selection of tracks from a collection of 17 Prahnas releases under the shared title \u201ctoy key\u201d (1-17) released between 2012 and 2022 as well as an in depth interview covering the projects origins, workings, equipment list, and current happenings.</h3>",
+      "external_links": [
+        "https://prahnas.bandcamp.com/music",
+        "https://www.instagram.com/prahnas.thecatalpaview/"
       ],
       "moods": [
         {
@@ -159,127 +698,32 @@
       ],
       "genres": [
         {
-          "id": "genres-caribbean-dub",
-          "value": "Dub"
-        },
-        {
-          "id": "genres-discoboogie-leftfielddisco",
-          "value": "Leftfield Disco"
-        },
-        {
-          "id": "genres-housetechno-house-balearichouse",
-          "value": "Balearic House"
-        },
-        {
-          "id": "genres-housetechno-house",
-          "value": "House"
-        },
-        {
-          "id": "genres-postpunkwave-newwave",
-          "value": "New Wave"
-        },
-        {
-          "id": "genres-rock-krautrock",
-          "value": "Krautrock"
+          "id": "genres-altrockpunk-indie",
+          "value": "Indie Rock"
         }
       ],
-      "location_short": "MLB",
-      "location_long": "Melbourne",
-      "intensity": "55",
-      "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/ec0adee6-ddba-49cd-9011-bf1c9b33a65d_1536019200.jpeg",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/ec0adee6-ddba-49cd-9011-bf1c9b33a65d_1536019200.jpeg",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/ec0adee6-ddba-49cd-9011-bf1c9b33a65d_1536019200.jpeg",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/ec0adee6-ddba-49cd-9011-bf1c9b33a65d_1536019200.jpeg",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/ec0adee6-ddba-49cd-9011-bf1c9b33a65d_1536019200.jpeg",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/ec0adee6-ddba-49cd-9011-bf1c9b33a65d_1536019200.jpeg",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/ec0adee6-ddba-49cd-9011-bf1c9b33a65d_1536019200.jpeg",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/ec0adee6-ddba-49cd-9011-bf1c9b33a65d_1536019200.jpeg",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/ec0adee6-ddba-49cd-9011-bf1c9b33a65d_1536019200.jpeg",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/ec0adee6-ddba-49cd-9011-bf1c9b33a65d_1536019200.jpeg"
-      },
-      "episode_alias": "otologic-7th-april-2025",
-      "show_alias": "otologic",
-      "broadcast": "2025-04-06T23:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/otologic-7th-april-2025/",
-      "audio_sources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/otologic-070425",
-          "source": "soundcloud"
-        }
-      ],
-      "brand": {},
-      "embeds": {},
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/otologic/episodes/otologic-7th-april-2025",
-          "type": "application/vnd.episode+json;charset=utf-8"
-        },
-        {
-          "rel": "show",
-          "href": "https://www.nts.live/api/v2/shows/otologic",
-          "type": "application/vnd.show+json;charset=utf-8"
-        },
-        {
-          "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/otologic/episodes/otologic-7th-april-2025/tracklist",
-          "type": "application/vnd.track-list+json;charset=utf-8"
-        }
-      ]
-    },
-    {
-      "status": "published",
-      "updated": "2025-04-07T12:26:24+00:00",
-      "name": "Midnight Marauders w/ Marshmello, NYX (Live) & Soulstravision",
-      "description": "Marsha by name and mellow by nature, MarshmeLLo takes you on a musical journey of all her influences plus a little extra. The first show ever broadcast on the station, Marsha continues to find her groove\u2026",
-      "description_html": "<h3>Marsha by name and mellow by nature, MarshmeLLo takes you on a musical journey of all her influences plus a little extra. The first show ever broadcast on the station, Marsha continues to find her groove\u2026</h3>",
-      "external_links": [
-        "https://www.facebook.com/pages/MoRninG-MaRauDers-w-MarshmeLLo/255179371179151",
-        "https://twitter.com/marshmello7s",
-        "https://www.instagram.com/marshmello7s"
-      ],
-      "moods": [],
-      "genres": [
-        {
-          "id": "genres-housetechno-house-detroithouse",
-          "value": "Detroit House"
-        },
-        {
-          "id": "genres-soulrhythm-soul",
-          "value": "Soul"
-        },
-        {
-          "id": "genres-jazz-contemporaryjazz",
-          "value": "Contemporary Jazz"
-        },
-        {
-          "id": "genres-housetechno-brokenbeat",
-          "value": "Broken Beat"
-        }
-      ],
-      "location_short": "LDN",
-      "location_long": "London",
+      "location_short": "LA",
+      "location_long": "Los Angeles",
       "intensity": "50",
       "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/e7e5b6c3-7994-42ea-bf1b-849684f773a4_1743897600.jpeg",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/e7e5b6c3-7994-42ea-bf1b-849684f773a4_1743897600.jpeg",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/e7e5b6c3-7994-42ea-bf1b-849684f773a4_1743897600.jpeg",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/e7e5b6c3-7994-42ea-bf1b-849684f773a4_1743897600.jpeg",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/e7e5b6c3-7994-42ea-bf1b-849684f773a4_1743897600.jpeg",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/e7e5b6c3-7994-42ea-bf1b-849684f773a4_1743897600.jpeg",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/e7e5b6c3-7994-42ea-bf1b-849684f773a4_1743897600.jpeg",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/e7e5b6c3-7994-42ea-bf1b-849684f773a4_1743897600.jpeg",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/e7e5b6c3-7994-42ea-bf1b-849684f773a4_1743897600.jpeg",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/e7e5b6c3-7994-42ea-bf1b-849684f773a4_1743897600.jpeg"
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/b159a54e-5784-4e5c-827d-ad9f07188c4d_1743984000.jpeg",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/b159a54e-5784-4e5c-827d-ad9f07188c4d_1743984000.jpeg",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/b159a54e-5784-4e5c-827d-ad9f07188c4d_1743984000.jpeg",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/b159a54e-5784-4e5c-827d-ad9f07188c4d_1743984000.jpeg",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/b159a54e-5784-4e5c-827d-ad9f07188c4d_1743984000.jpeg",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/b159a54e-5784-4e5c-827d-ad9f07188c4d_1743984000.jpeg",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/b159a54e-5784-4e5c-827d-ad9f07188c4d_1743984000.jpeg",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/b159a54e-5784-4e5c-827d-ad9f07188c4d_1743984000.jpeg",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/b159a54e-5784-4e5c-827d-ad9f07188c4d_1743984000.jpeg",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/b159a54e-5784-4e5c-827d-ad9f07188c4d_1743984000.jpeg"
       },
-      "episode_alias": "midnight-marauders-6th-april-2025",
-      "show_alias": "midnight-marauders",
-      "broadcast": "2025-04-06T21:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/midnight-marauders-w-marshmello-nyx-live-soulstravision-6th-april-2025/",
+      "episode_alias": "claire-rousay-7th-april-2025",
+      "show_alias": "claire-rousay",
+      "broadcast": "2025-04-07T16:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/claire-rousay-prahnas-focus-7th-april-2025/",
       "audio_sources": [
         {
-          "url": "https://soundcloud.com/user-643553014/midnight-marauders-w-562497274",
+          "url": "https://soundcloud.com/user-643553014/claire-rousay-prahnas-focus",
           "source": "soundcloud"
         }
       ],
@@ -288,299 +732,115 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/midnight-marauders/episodes/midnight-marauders-6th-april-2025",
+          "href": "https://www.nts.live/api/v2/shows/claire-rousay/episodes/claire-rousay-7th-april-2025",
           "type": "application/vnd.episode+json;charset=utf-8"
         },
         {
           "rel": "show",
-          "href": "https://www.nts.live/api/v2/shows/midnight-marauders",
+          "href": "https://www.nts.live/api/v2/shows/claire-rousay",
           "type": "application/vnd.show+json;charset=utf-8"
         },
         {
           "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/midnight-marauders/episodes/midnight-marauders-6th-april-2025/tracklist",
+          "href": "https://www.nts.live/api/v2/shows/claire-rousay/episodes/claire-rousay-7th-april-2025/tracklist",
           "type": "application/vnd.track-list+json;charset=utf-8"
         }
       ]
     },
     {
       "status": "published",
-      "updated": "2025-04-07T15:28:07+00:00",
-      "name": "Beirut Daze w/ Ernesto Chahoud",
-      "description": "Infamous Beirut DJ Ernesto Chahoud takes over the NTS signal for his monthly 'Beirut Daze' slot, recorded in Lebanon and showcasing music from his far-ranging collection. ",
-      "description_html": "<h3>Infamous Beirut DJ Ernesto Chahoud takes over the NTS signal for his monthly 'Beirut Daze' slot, recorded in Lebanon and showcasing music from his far-ranging collection. </h3>",
+      "updated": "2025-04-08T14:07:27+00:00",
+      "name": "Touching Bass w/ Errol & Alex Rita",
+      "description": "Join Errol and the Touching Bass family every month for regular voyages into inner-city, concrete jungle productions plus astral-facing funk, jazz, broken beat and anything else with a soulful pulse.",
+      "description_html": "<h3>Join Errol and the Touching Bass family every month for regular voyages into inner-city, concrete jungle productions plus astral-facing funk, jazz, broken beat and anything else with a soulful pulse.</h3>",
       "external_links": [
-        "https://www.facebook.com/Ernesto-Chahoud-318065135464950",
-        "https://twitter.com/ernestchahoud?lang=en",
-        "https://www.instagram.com/ernesto_chahoud/"
-      ],
-      "moods": [],
-      "genres": [],
-      "location_short": "BRT",
-      "location_long": "Beirut",
-      "intensity": "50",
-      "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/6f189deb-35eb-4d45-b22a-5a9fb50464f1_1743897600.jpeg",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/6f189deb-35eb-4d45-b22a-5a9fb50464f1_1743897600.jpeg",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/6f189deb-35eb-4d45-b22a-5a9fb50464f1_1743897600.jpeg",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/6f189deb-35eb-4d45-b22a-5a9fb50464f1_1743897600.jpeg",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/6f189deb-35eb-4d45-b22a-5a9fb50464f1_1743897600.jpeg",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/6f189deb-35eb-4d45-b22a-5a9fb50464f1_1743897600.jpeg",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/6f189deb-35eb-4d45-b22a-5a9fb50464f1_1743897600.jpeg",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/6f189deb-35eb-4d45-b22a-5a9fb50464f1_1743897600.jpeg",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/6f189deb-35eb-4d45-b22a-5a9fb50464f1_1743897600.jpeg",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/6f189deb-35eb-4d45-b22a-5a9fb50464f1_1743897600.jpeg"
-      },
-      "episode_alias": "ernesto-chahoud-6th-april-2025",
-      "show_alias": "ernesto-chahoud",
-      "broadcast": "2025-04-06T19:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/beirut-daze-w-ernesto-chahoud-6th-april-2025/",
-      "audio_sources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/beirut-daze-w-978499369",
-          "source": "soundcloud"
-        }
-      ],
-      "brand": {},
-      "embeds": {},
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/ernesto-chahoud/episodes/ernesto-chahoud-6th-april-2025",
-          "type": "application/vnd.episode+json;charset=utf-8"
-        },
-        {
-          "rel": "show",
-          "href": "https://www.nts.live/api/v2/shows/ernesto-chahoud",
-          "type": "application/vnd.show+json;charset=utf-8"
-        },
-        {
-          "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/ernesto-chahoud/episodes/ernesto-chahoud-6th-april-2025/tracklist",
-          "type": "application/vnd.track-list+json;charset=utf-8"
-        }
-      ]
-    },
-    {
-      "status": "published",
-      "updated": "2025-04-07T15:46:12+00:00",
-      "name": "The Reign Set",
-      "description": "DJ, vinyl archivist and presenter Gary The Tall\u2019s show\u2019s sole objective is to shine a light to the environs of outsider artists and their innovative endeavours where he unveils obscure post-punk, dub, synth, psychedelic rock and left-field cosmic excursions. \nFollow him on Instagram here ",
-      "description_html": "<h3>DJ, vinyl archivist and presenter Gary The Tall\u2019s show\u2019s sole objective is to shine a light to the environs of outsider artists and their innovative endeavours where he unveils obscure post-punk, dub, synth, psychedelic rock and left-field cosmic excursions. </h3>\n<p>Follow him on Instagram<a href=\"https://www.instagram.com/garythetall/\" target=\"_blank\"> here </a></p>",
-      "external_links": [
-        "https://www.instagram.com/garythetall/"
+        "https://www.facebook.com/touchingbass/",
+        "http://twitter.com/touching_bass"
       ],
       "moods": [
         {
-          "id": "moods-minimal-talkin",
-          "value": "Minimal Talkin"
-        }
-      ],
-      "genres": [
-        {
-          "id": "genres-altrockpunk-punk",
-          "value": "Punk"
+          "id": "moods-safe-for-work",
+          "value": "SAFE FOR WORK"
         },
-        {
-          "id": "genres-postpunkwave-postpunk",
-          "value": "Post Punk"
-        },
-        {
-          "id": "genres-caribbean-dub",
-          "value": "Dub"
-        }
-      ],
-      "location_short": "LDN",
-      "location_long": "London",
-      "intensity": "65",
-      "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/aeb96b6b-f5c4-42ad-843e-470c0b1e165a_1743897600.jpeg",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/aeb96b6b-f5c4-42ad-843e-470c0b1e165a_1743897600.jpeg",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/aeb96b6b-f5c4-42ad-843e-470c0b1e165a_1743897600.jpeg",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/aeb96b6b-f5c4-42ad-843e-470c0b1e165a_1743897600.jpeg",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/aeb96b6b-f5c4-42ad-843e-470c0b1e165a_1743897600.jpeg",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/aeb96b6b-f5c4-42ad-843e-470c0b1e165a_1743897600.jpeg",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/aeb96b6b-f5c4-42ad-843e-470c0b1e165a_1743897600.jpeg",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/aeb96b6b-f5c4-42ad-843e-470c0b1e165a_1743897600.jpeg",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/aeb96b6b-f5c4-42ad-843e-470c0b1e165a_1743897600.jpeg",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/aeb96b6b-f5c4-42ad-843e-470c0b1e165a_1743897600.jpeg"
-      },
-      "episode_alias": "thereignset-6th-april-2025",
-      "show_alias": "thereignset",
-      "broadcast": "2025-04-06T18:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/the-reign-set-6th-april-2025/",
-      "audio_sources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/the-reign-set-060425",
-          "source": "soundcloud"
-        }
-      ],
-      "brand": {},
-      "embeds": {},
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/thereignset/episodes/thereignset-6th-april-2025",
-          "type": "application/vnd.episode+json;charset=utf-8"
-        },
-        {
-          "rel": "show",
-          "href": "https://www.nts.live/api/v2/shows/thereignset",
-          "type": "application/vnd.show+json;charset=utf-8"
-        },
-        {
-          "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/thereignset/episodes/thereignset-6th-april-2025/tracklist",
-          "type": "application/vnd.track-list+json;charset=utf-8"
-        }
-      ]
-    },
-    {
-      "status": "published",
-      "updated": "2025-04-07T11:53:43+00:00",
-      "name": "Loose Bones: British Psychedelic Underground 1965-1969",
-      "description": "NTS hosts since early doors, Loose Bones take you on a freewheeling trip through filmic soundscapes, psychedelia, vintage experimentalism, fuzzed out rock and other esoteric surprises. Every single month. ",
-      "description_html": "<h3>NTS hosts since early doors, Loose Bones take you on a freewheeling trip through filmic soundscapes, psychedelia, vintage experimentalism, fuzzed out rock and other esoteric surprises. Every single month. </h3>",
-      "external_links": [
-        "https://twitter.com/loosebonesradio",
-        "https://www.facebook.com/pages/Loose-Bones-Radio/229226030425421",
-        "https://www.instagram.com/loosebonesradio/"
-      ],
-      "moods": [
-        {
-          "id": "moods-minimal-talkin",
-          "value": "Minimal Talkin"
-        }
-      ],
-      "genres": [
-        {
-          "id": "genres-altrockpunk-noiserock",
-          "value": "Noise Rock"
-        },
-        {
-          "id": "genres-altrockpunk-punk",
-          "value": "Punk"
-        },
-        {
-          "id": "genres-altrockpunk-garagerock",
-          "value": "Garage Rock"
-        }
-      ],
-      "location_short": "LDN",
-      "location_long": "London",
-      "intensity": "75",
-      "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/c72b051b-a011-4b31-8129-4b740a73f778_1699488000.jpeg",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/c72b051b-a011-4b31-8129-4b740a73f778_1699488000.jpeg",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/c72b051b-a011-4b31-8129-4b740a73f778_1699488000.jpeg",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/c72b051b-a011-4b31-8129-4b740a73f778_1699488000.jpeg",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/c72b051b-a011-4b31-8129-4b740a73f778_1699488000.jpeg",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/c72b051b-a011-4b31-8129-4b740a73f778_1699488000.jpeg",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/c72b051b-a011-4b31-8129-4b740a73f778_1699488000.jpeg",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/c72b051b-a011-4b31-8129-4b740a73f778_1699488000.jpeg",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/c72b051b-a011-4b31-8129-4b740a73f778_1699488000.jpeg",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/c72b051b-a011-4b31-8129-4b740a73f778_1699488000.jpeg"
-      },
-      "episode_alias": "loose-bones-6th-april-2025",
-      "show_alias": "loose-bones",
-      "broadcast": "2025-04-06T16:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/loose-bones-british-psychedelic-underground-1965-1969-6th-april-2025/",
-      "audio_sources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/loose-bones-british",
-          "source": "soundcloud"
-        }
-      ],
-      "brand": {},
-      "embeds": {},
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/loose-bones/episodes/loose-bones-6th-april-2025",
-          "type": "application/vnd.episode+json;charset=utf-8"
-        },
-        {
-          "rel": "show",
-          "href": "https://www.nts.live/api/v2/shows/loose-bones",
-          "type": "application/vnd.show+json;charset=utf-8"
-        },
-        {
-          "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/loose-bones/episodes/loose-bones-6th-april-2025/tracklist",
-          "type": "application/vnd.track-list+json;charset=utf-8"
-        }
-      ]
-    },
-    {
-      "status": "published",
-      "updated": "2025-04-07T11:53:26+00:00",
-      "name": "Noel Spiva Feat. Jazz Flow W/ Makeda Kravitz & Blvck Spvde",
-      "description": "St. Louis multidimensional visual artist Noel Spiva brings a regular hour of warming, soulful selections merging smooth rap & inspiring jazzy tracks\u2026",
-      "description_html": "<h3>St. Louis multidimensional visual artist Noel Spiva brings a regular hour of warming, soulful selections merging smooth rap & inspiring jazzy tracks\u2026</h3>",
-      "external_links": [
-        "https://noelspiva.bandcamp.com/",
-        "https://soundcloud.com/noelspiva",
-        "https://www.instagram.com/noelspiva/"
-      ],
-      "moods": [],
-      "genres": [],
-      "location_short": null,
-      "location_long": "St. Louis",
-      "intensity": "50",
-      "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/13c3f56a-86ba-49a2-bee7-8a976a68b584_1743638400.png",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/13c3f56a-86ba-49a2-bee7-8a976a68b584_1743638400.png",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/13c3f56a-86ba-49a2-bee7-8a976a68b584_1743638400.png",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/13c3f56a-86ba-49a2-bee7-8a976a68b584_1743638400.png",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/13c3f56a-86ba-49a2-bee7-8a976a68b584_1743638400.png",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/13c3f56a-86ba-49a2-bee7-8a976a68b584_1743638400.png",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/13c3f56a-86ba-49a2-bee7-8a976a68b584_1743638400.png",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/13c3f56a-86ba-49a2-bee7-8a976a68b584_1743638400.png",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/13c3f56a-86ba-49a2-bee7-8a976a68b584_1743638400.png",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/13c3f56a-86ba-49a2-bee7-8a976a68b584_1743638400.png"
-      },
-      "episode_alias": "noel-spiva-6th-april-2025",
-      "show_alias": "noel-spiva",
-      "broadcast": "2025-04-06T14:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/noel-spiva-feat-jazz-flow-w-makeda-kravitz-blvck-spvde-6th-april-2025/",
-      "audio_sources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/noel-spiva-feat-jazz-flow-w",
-          "source": "soundcloud"
-        }
-      ],
-      "brand": {},
-      "embeds": {},
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/noel-spiva/episodes/noel-spiva-6th-april-2025",
-          "type": "application/vnd.episode+json;charset=utf-8"
-        },
-        {
-          "rel": "show",
-          "href": "https://www.nts.live/api/v2/shows/noel-spiva",
-          "type": "application/vnd.show+json;charset=utf-8"
-        },
-        {
-          "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/noel-spiva/episodes/noel-spiva-6th-april-2025/tracklist",
-          "type": "application/vnd.track-list+json;charset=utf-8"
-        }
-      ]
-    },
-    {
-      "status": "published",
-      "updated": "2025-04-07T15:14:27+00:00",
-      "name": "Asher G's Caribbean Memories",
-      "description": "Classic Jamaican records from the \"Rocksteady Daddy\" Asher G.",
-      "description_html": "<h3>Classic Jamaican records from the \"Rocksteady Daddy\" Asher G.</h3>",
-      "external_links": [],
-      "moods": [
         {
           "id": "moods-lean-back",
           "value": "LEAN BACK"
+        }
+      ],
+      "genres": [
+        {
+          "id": "genres-latinbrazil-latinjazz",
+          "value": "Latin Jazz"
         },
+        {
+          "id": "genres-latinbrazil-musicapopular",
+          "value": "M\u00fasica Popular Brasileira"
+        },
+        {
+          "id": "genres-caribbean-reggae",
+          "value": "Reggae"
+        },
+        {
+          "id": "genres-jazz-souljazz",
+          "value": "Soul Jazz"
+        }
+      ],
+      "location_short": "LDN",
+      "location_long": "London",
+      "intensity": "40",
+      "media": {
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/17d4d5b3-98d4-48b6-9d0c-787b31c96a47_1737504000.jpeg",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/17d4d5b3-98d4-48b6-9d0c-787b31c96a47_1737504000.jpeg",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/17d4d5b3-98d4-48b6-9d0c-787b31c96a47_1737504000.jpeg",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/17d4d5b3-98d4-48b6-9d0c-787b31c96a47_1737504000.jpeg",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/17d4d5b3-98d4-48b6-9d0c-787b31c96a47_1737504000.jpeg",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/17d4d5b3-98d4-48b6-9d0c-787b31c96a47_1737504000.jpeg",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/17d4d5b3-98d4-48b6-9d0c-787b31c96a47_1737504000.jpeg",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/17d4d5b3-98d4-48b6-9d0c-787b31c96a47_1737504000.jpeg",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/17d4d5b3-98d4-48b6-9d0c-787b31c96a47_1737504000.jpeg",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/17d4d5b3-98d4-48b6-9d0c-787b31c96a47_1737504000.jpeg"
+      },
+      "episode_alias": "touching-bass-7th-april-2025",
+      "show_alias": "touching-bass",
+      "broadcast": "2025-04-07T15:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/touching-bass-w-errol-alex-rita-7th-april-2025/",
+      "audio_sources": [
+        {
+          "url": "https://soundcloud.com/user-643553014/touching-bass-w-errol-alex-1",
+          "source": "soundcloud"
+        }
+      ],
+      "brand": {},
+      "embeds": {},
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://www.nts.live/api/v2/shows/touching-bass/episodes/touching-bass-7th-april-2025",
+          "type": "application/vnd.episode+json;charset=utf-8"
+        },
+        {
+          "rel": "show",
+          "href": "https://www.nts.live/api/v2/shows/touching-bass",
+          "type": "application/vnd.show+json;charset=utf-8"
+        },
+        {
+          "rel": "tracklist",
+          "href": "https://www.nts.live/api/v2/shows/touching-bass/episodes/touching-bass-7th-april-2025/tracklist",
+          "type": "application/vnd.track-list+json;charset=utf-8"
+        }
+      ]
+    },
+    {
+      "status": "published",
+      "updated": "2025-04-08T14:06:23+00:00",
+      "name": "Smerz: Bored in my room playlist",
+      "description": "Henriette and Catharina of Smerz take over the NTS airwaves once a month with a selection of classical, folk, ambient, pop and more.",
+      "description_html": "<h3>Henriette and Catharina of Smerz take over the NTS airwaves once a month with a selection of classical, folk, ambient, pop and more.</h3>",
+      "external_links": [
+        "https://soundcloud.com/smerzno",
+        "https://www.facebook.com/Smerzno/"
+      ],
+      "moods": [
         {
           "id": "moods-safe-for-work",
           "value": "SAFE FOR WORK"
@@ -588,90 +848,44 @@
       ],
       "genres": [
         {
-          "id": "genres-caribbean-reggae",
-          "value": "Reggae"
+          "id": "genres-electronicadowntempo-trip-hop",
+          "value": "Trip Hop"
         },
         {
-          "id": "genres-caribbean-rocksteady",
-          "value": "Rocksteady"
+          "id": "genres-ambientnewage-ambient",
+          "value": "Ambient"
+        },
+        {
+          "id": "genres-other-leftfield-pop",
+          "value": "Leftfield Pop"
+        },
+        {
+          "id": "genres-altrockpunk-dreampop",
+          "value": "Dream Pop"
         }
       ],
-      "location_short": "LDN",
-      "location_long": "London",
-      "intensity": "50",
-      "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/5cb9bc0a-45f2-4f22-a40d-7681704dec37_1598572800.jpeg",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/5cb9bc0a-45f2-4f22-a40d-7681704dec37_1598572800.jpeg",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/5cb9bc0a-45f2-4f22-a40d-7681704dec37_1598572800.jpeg",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/5cb9bc0a-45f2-4f22-a40d-7681704dec37_1598572800.jpeg",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/5cb9bc0a-45f2-4f22-a40d-7681704dec37_1598572800.jpeg",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/5cb9bc0a-45f2-4f22-a40d-7681704dec37_1598572800.jpeg",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/5cb9bc0a-45f2-4f22-a40d-7681704dec37_1598572800.jpeg",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/5cb9bc0a-45f2-4f22-a40d-7681704dec37_1598572800.jpeg",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/5cb9bc0a-45f2-4f22-a40d-7681704dec37_1598572800.jpeg",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/5cb9bc0a-45f2-4f22-a40d-7681704dec37_1598572800.jpeg"
-      },
-      "episode_alias": "asher-g-6th-april-2025",
-      "show_alias": "asher-g",
-      "broadcast": "2025-04-06T12:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/asher-gs-caribbean-memories-6th-april-2025/",
-      "audio_sources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/asher-gs-caribbean-111332605",
-          "source": "soundcloud"
-        }
-      ],
-      "brand": {},
-      "embeds": {},
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/asher-g/episodes/asher-g-6th-april-2025",
-          "type": "application/vnd.episode+json;charset=utf-8"
-        },
-        {
-          "rel": "show",
-          "href": "https://www.nts.live/api/v2/shows/asher-g",
-          "type": "application/vnd.show+json;charset=utf-8"
-        },
-        {
-          "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/asher-g/episodes/asher-g-6th-april-2025/tracklist",
-          "type": "application/vnd.track-list+json;charset=utf-8"
-        }
-      ]
-    },
-    {
-      "status": "published",
-      "updated": "2025-04-07T11:53:06+00:00",
-      "name": "High Hopes w/ Judah & Dearest",
-      "description": "Judah's High Hopes explains itself with the name. The blend of soul, experimental hip hop and a range of jazz is enough to bring optimism into any listener's day, and Judah's sonic selections act as a monthly ray of sunshine to brighten any listener's day. ",
-      "description_html": "<h3>Judah's High Hopes explains itself with the name. The blend of soul, experimental hip hop and a range of jazz is enough to bring optimism into any listener's day, and Judah's sonic selections act as a monthly ray of sunshine to brighten any listener's day. </h3>",
-      "external_links": [],
-      "moods": [],
-      "genres": [],
-      "location_short": null,
-      "location_long": null,
+      "location_short": "CPH",
+      "location_long": "Copenhagen",
       "intensity": null,
       "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/190d5e78-87a1-45ef-a351-7f642b4f1fb1_1743897600.jpeg",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/190d5e78-87a1-45ef-a351-7f642b4f1fb1_1743897600.jpeg",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/190d5e78-87a1-45ef-a351-7f642b4f1fb1_1743897600.jpeg",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/190d5e78-87a1-45ef-a351-7f642b4f1fb1_1743897600.jpeg",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/190d5e78-87a1-45ef-a351-7f642b4f1fb1_1743897600.jpeg",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/190d5e78-87a1-45ef-a351-7f642b4f1fb1_1743897600.jpeg",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/190d5e78-87a1-45ef-a351-7f642b4f1fb1_1743897600.jpeg",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/190d5e78-87a1-45ef-a351-7f642b4f1fb1_1743897600.jpeg",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/190d5e78-87a1-45ef-a351-7f642b4f1fb1_1743897600.jpeg",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/190d5e78-87a1-45ef-a351-7f642b4f1fb1_1743897600.jpeg"
+        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/07cc6139-7cf9-4538-92f0-0d04c82770a5_1743984000.jpeg",
+        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/07cc6139-7cf9-4538-92f0-0d04c82770a5_1743984000.jpeg",
+        "background_medium": "https://media.ntslive.co.uk/resize/400x400/07cc6139-7cf9-4538-92f0-0d04c82770a5_1743984000.jpeg",
+        "background_small": "https://media3.ntslive.co.uk/resize/200x200/07cc6139-7cf9-4538-92f0-0d04c82770a5_1743984000.jpeg",
+        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/07cc6139-7cf9-4538-92f0-0d04c82770a5_1743984000.jpeg",
+        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/07cc6139-7cf9-4538-92f0-0d04c82770a5_1743984000.jpeg",
+        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/07cc6139-7cf9-4538-92f0-0d04c82770a5_1743984000.jpeg",
+        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/07cc6139-7cf9-4538-92f0-0d04c82770a5_1743984000.jpeg",
+        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/07cc6139-7cf9-4538-92f0-0d04c82770a5_1743984000.jpeg",
+        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/07cc6139-7cf9-4538-92f0-0d04c82770a5_1743984000.jpeg"
       },
-      "episode_alias": "high-hopes-w-judah-6th-april-2025",
-      "show_alias": "high-hopes-w-judah",
-      "broadcast": "2025-04-06T11:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/high-hopes-w-judah-dearest-6th-april-2025/",
+      "episode_alias": "smerz-7th-april-2025",
+      "show_alias": "smerz",
+      "broadcast": "2025-04-07T15:00:00+00:00",
+      "mixcloud": "https://www.mixcloud.com/NTSRadio/smerz-bored-in-my-room-playlist-7th-april-2025/",
       "audio_sources": [
         {
-          "url": "https://soundcloud.com/user-643553014/high-hopes-w-judah-dearest",
+          "url": "https://soundcloud.com/user-643553014/smerz-bored-in-my-room",
           "source": "soundcloud"
         }
       ],
@@ -680,131 +894,17 @@
       "links": [
         {
           "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/high-hopes-w-judah/episodes/high-hopes-w-judah-6th-april-2025",
+          "href": "https://www.nts.live/api/v2/shows/smerz/episodes/smerz-7th-april-2025",
           "type": "application/vnd.episode+json;charset=utf-8"
         },
         {
           "rel": "show",
-          "href": "https://www.nts.live/api/v2/shows/high-hopes-w-judah",
+          "href": "https://www.nts.live/api/v2/shows/smerz",
           "type": "application/vnd.show+json;charset=utf-8"
         },
         {
           "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/high-hopes-w-judah/episodes/high-hopes-w-judah-6th-april-2025/tracklist",
-          "type": "application/vnd.track-list+json;charset=utf-8"
-        }
-      ]
-    },
-    {
-      "status": "published",
-      "updated": "2025-04-07T11:52:49+00:00",
-      "name": "The Slip",
-      "description": "Rory Bowens heads The Slip on Sunday mornings monthly - squeezing an hour of hazy dub off-shoots, pupil-dilating shoegaze and uncanny dream music.",
-      "description_html": "<h3>Rory Bowens heads The Slip on Sunday mornings monthly - squeezing an hour of hazy dub off-shoots, pupil-dilating shoegaze and uncanny dream music.</h3>",
-      "external_links": [
-        "https://www.facebook.com/theslipradio",
-        "https://twitter.com/RoryBowens",
-        "https://www.instagram.com/rorybowens/"
-      ],
-      "moods": [],
-      "genres": [],
-      "location_short": "NVN",
-      "location_long": "Navan",
-      "intensity": "55",
-      "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/bc8147cf-f7b7-4731-8f98-6438cc6d2dc4_1743984000.jpeg",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/bc8147cf-f7b7-4731-8f98-6438cc6d2dc4_1743984000.jpeg",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/bc8147cf-f7b7-4731-8f98-6438cc6d2dc4_1743984000.jpeg",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/bc8147cf-f7b7-4731-8f98-6438cc6d2dc4_1743984000.jpeg",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/bc8147cf-f7b7-4731-8f98-6438cc6d2dc4_1743984000.jpeg",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/bc8147cf-f7b7-4731-8f98-6438cc6d2dc4_1743984000.jpeg",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/bc8147cf-f7b7-4731-8f98-6438cc6d2dc4_1743984000.jpeg",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/bc8147cf-f7b7-4731-8f98-6438cc6d2dc4_1743984000.jpeg",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/bc8147cf-f7b7-4731-8f98-6438cc6d2dc4_1743984000.jpeg",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/bc8147cf-f7b7-4731-8f98-6438cc6d2dc4_1743984000.jpeg"
-      },
-      "episode_alias": "theslip-6th-april-2025",
-      "show_alias": "theslip",
-      "broadcast": "2025-04-06T09:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/the-slip-6th-april-2025/",
-      "audio_sources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/the-slip-060425",
-          "source": "soundcloud"
-        }
-      ],
-      "brand": {},
-      "embeds": {},
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/theslip/episodes/theslip-6th-april-2025",
-          "type": "application/vnd.episode+json;charset=utf-8"
-        },
-        {
-          "rel": "show",
-          "href": "https://www.nts.live/api/v2/shows/theslip",
-          "type": "application/vnd.show+json;charset=utf-8"
-        },
-        {
-          "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/theslip/episodes/theslip-6th-april-2025/tracklist",
-          "type": "application/vnd.track-list+json;charset=utf-8"
-        }
-      ]
-    },
-    {
-      "status": "published",
-      "updated": "2025-04-07T12:13:05+00:00",
-      "name": "ONDAS W/ DUBBY",
-      "description": "This program is curated by Ondas Representative, Dubby. It features artists, both well-known and unknown, with a unique aesthetic from a wide range of genres that used to be available at Ondas.",
-      "description_html": "<h3>This program is curated by Ondas Representative, Dubby. It features artists, both well-known and unknown, with a unique aesthetic from a wide range of genres that used to be available at Ondas.</h3>",
-      "external_links": [
-        "https://www.instagram.com/dubby_ondas/"
-      ],
-      "moods": [],
-      "genres": [],
-      "location_short": "TKY",
-      "location_long": "Tokyo",
-      "intensity": "50",
-      "media": {
-        "background_large": "https://media2.ntslive.co.uk/resize/1600x1600/64e14f88-d947-4ce7-884d-72009c2f762d_1743638400.jpeg",
-        "background_medium_large": "https://media2.ntslive.co.uk/resize/800x800/64e14f88-d947-4ce7-884d-72009c2f762d_1743638400.jpeg",
-        "background_medium": "https://media.ntslive.co.uk/resize/400x400/64e14f88-d947-4ce7-884d-72009c2f762d_1743638400.jpeg",
-        "background_small": "https://media3.ntslive.co.uk/resize/200x200/64e14f88-d947-4ce7-884d-72009c2f762d_1743638400.jpeg",
-        "background_thumb": "https://media3.ntslive.co.uk/resize/100x100/64e14f88-d947-4ce7-884d-72009c2f762d_1743638400.jpeg",
-        "picture_large": "https://media2.ntslive.co.uk/resize/1600x1600/64e14f88-d947-4ce7-884d-72009c2f762d_1743638400.jpeg",
-        "picture_medium_large": "https://media2.ntslive.co.uk/resize/800x800/64e14f88-d947-4ce7-884d-72009c2f762d_1743638400.jpeg",
-        "picture_medium": "https://media.ntslive.co.uk/resize/400x400/64e14f88-d947-4ce7-884d-72009c2f762d_1743638400.jpeg",
-        "picture_small": "https://media3.ntslive.co.uk/resize/200x200/64e14f88-d947-4ce7-884d-72009c2f762d_1743638400.jpeg",
-        "picture_thumb": "https://media3.ntslive.co.uk/resize/100x100/64e14f88-d947-4ce7-884d-72009c2f762d_1743638400.jpeg"
-      },
-      "episode_alias": "ideala-6th-april-2025",
-      "show_alias": "ideala",
-      "broadcast": "2025-04-06T08:00:00+00:00",
-      "mixcloud": "https://www.mixcloud.com/NTSRadio/ondas-w-dubby-6th-april-2025/",
-      "audio_sources": [
-        {
-          "url": "https://soundcloud.com/user-643553014/ondas-w-dubby-060425",
-          "source": "soundcloud"
-        }
-      ],
-      "brand": {},
-      "embeds": {},
-      "links": [
-        {
-          "rel": "self",
-          "href": "https://www.nts.live/api/v2/shows/ideala/episodes/ideala-6th-april-2025",
-          "type": "application/vnd.episode+json;charset=utf-8"
-        },
-        {
-          "rel": "show",
-          "href": "https://www.nts.live/api/v2/shows/ideala",
-          "type": "application/vnd.show+json;charset=utf-8"
-        },
-        {
-          "rel": "tracklist",
-          "href": "https://www.nts.live/api/v2/shows/ideala/episodes/ideala-6th-april-2025/tracklist",
+          "href": "https://www.nts.live/api/v2/shows/smerz/episodes/smerz-7th-april-2025/tracklist",
           "type": "application/vnd.track-list+json;charset=utf-8"
         }
       ]

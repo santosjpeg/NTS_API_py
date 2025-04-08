@@ -1,4 +1,6 @@
 from dotenv import load_dotenv,find_dotenv
+from bs4 import BeautifulSoup
+import urllib.parse
 import vlc
 import time
 import requests
@@ -24,17 +26,39 @@ def handle_menu_options(choice):
     else:
         print("Invalid Option: Choose from {1,2,3,exit}")
 
-def extract_track_id():
-    pass
+def extract_track_id(url):
+    headers = {
+        'User-Agent': 'Mozilla/5.0'
+    }
 
+    res = requests.get(url, headers=headers)
+    soup = BeautifulSoup(res.text, 'html.parser')
+
+    meta_tag = soup.find('meta',attrs={'property': 'twitter:player'})
+    if not meta_tag:
+        return None 
+
+    embed_url = meta_tag['content']
+    parsed = urllib.parse.urlparse(embed_url)
+    params = urllib.parse.parse_qs(parsed.query)
+
+    api_url = params.get('url', [None])[0]
+    if not api_url:
+        return None
+
+    track_id = api_url.rstrip('/').split('/')[-1]
+    return track_id
 
 def handle_search_options(option, search_results):
+    option = int(option) - 1 
+    json_select = search_results[option]
+    url_to_scrape = json_select['audio_sources'][0]['url']
+
     CLIENT_ID=os.environ.get("CLIENT_ID").strip()
-    TRACK_ID_TEST='2072674932'.strip()
+    TRACK_ID_TEST='2073581608'.strip()
+    TRACK_ID = extract_track_id(url_to_scrape)
 
-    TRACK_ID = extract_track_id()
-
-    API_URL = f"https://api-v2.soundcloud.com/tracks/{TRACK_ID_TEST}?client_id={CLIENT_ID}"
+    API_URL = f"https://api-v2.soundcloud.com/tracks/{TRACK_ID}?client_id={CLIENT_ID}"
     r = requests.get(API_URL)
     if r.status_code == 200:
         transcodings = r.json().get("media", {}).get("transcodings", [])
