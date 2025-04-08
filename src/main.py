@@ -1,7 +1,11 @@
+from dotenv import load_dotenv,find_dotenv
 import vlc
 import time
 import requests
 import json
+import os
+
+load_dotenv(find_dotenv())
 
 def display_menu_options():
     print("Welcome to NTS Radio tools.")
@@ -20,9 +24,40 @@ def handle_menu_options(choice):
     else:
         print("Invalid Option: Choose from {1,2,3,exit}")
 
-def handle_search_options(option):
-    print(f"[+] User selected {option}...")
+def extract_track_id():
     pass
+
+
+def handle_search_options(option, search_results):
+    CLIENT_ID=os.environ.get("CLIENT_ID").strip()
+    TRACK_ID_TEST='2072674932'.strip()
+
+    TRACK_ID = extract_track_id()
+
+    API_URL = f"https://api-v2.soundcloud.com/tracks/{TRACK_ID_TEST}?client_id={CLIENT_ID}"
+    r = requests.get(API_URL)
+    if r.status_code == 200:
+        transcodings = r.json().get("media", {}).get("transcodings", [])
+        for t in transcodings:
+            if t.get("format", {}).get("protocol") == "progressive":
+                track_api_url = f"{t['url']}?client_id={CLIENT_ID}"
+                print("PROG. TRANSCODING FOUND")
+                break
+        else:
+            print("No progressive stream found.")
+            return
+        stream_url_tmp = requests.get(track_api_url).json()
+        stream_url = stream_url_tmp.get("url")
+        if(stream_url):
+            player = vlc.MediaPlayer(stream_url)
+            player.play()
+            input("Press 'enter' to stop playing.")
+            player.stop()
+        else:
+            print("No URL Response Found")
+    else:
+        print("Failed to call API")
+        return
 
 def print_current_sets(raw_radio):
     for i in raw_radio:
@@ -59,22 +94,21 @@ def search_archive():
     
     with open('latest.json','r', encoding='utf-8') as fp:
         json_output = json.loads(fp.read())['results']
-        all_results = [i['name'] for i in json_output]
+        all_results = [i for i in json_output]
 
     user_search = ''
 
     print("RECENTLY ADDED SHOWS:")
-    print("0. SEARCH")
+    i = 0
     for i in range(len(all_results)):
-        print(f"{i+1}. {all_results[i]}")
+        print(f"{i+1}. {all_results[i]['name']}")
     print("(exit) exit")
 
     while(True):
         user_search = input("Enter menu option: ")
         if user_search == 'exit':
             break
-        handle_search_options(user_search)
-        
+        handle_search_options(user_search, all_results)
 
 def search_infinite_mixtapes():
     pass
