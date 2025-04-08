@@ -51,37 +51,50 @@ def extract_track_id(url):
 
 def handle_search_options(option, search_results):
     option = int(option) - 1 
+    if option not in range(0,12):
+        print("INVALID OPTION; Select from 1 to 12")
+        return
     json_select = search_results[option]
     url_to_scrape = json_select['audio_sources'][0]['url']
 
     CLIENT_ID=os.environ.get("CLIENT_ID").strip()
-    TRACK_ID_TEST='2073581608'.strip()
     TRACK_ID = extract_track_id(url_to_scrape)
+    
+    ATTEMPTS = 3
+    for attempt in range(ATTEMPTS):
+        try:
+            API_URL = f"https://api-v2.soundcloud.com/tracks/{TRACK_ID}?client_id={CLIENT_ID}"
+            r = requests.get(API_URL)
+            if r.status_code == 200:
+                transcodings = r.json().get("media", {}).get("transcodings", [])
+                for t in transcodings:
+                    if t.get("format", {}).get("protocol") == "progressive":
+                        track_api_url = f"{t['url']}?client_id={CLIENT_ID}"
+                        print("PROG. TRANSCODING FOUND")
+                        break
+                else:
+                    print("No progressive stream found.")
+                    time.sleep(2)
+                stream_url_tmp = requests.get(track_api_url).json()
+                stream_url = stream_url_tmp.get("url")
+                if(stream_url):
+                    player = vlc.MediaPlayer(stream_url)
+                    player.play()
+                    input("Press 'enter' to stop playing.")
+                    player.stop()
+                    return
+                else:
+                    print("No URL Response Found")
+                    time.sleep(2)
+            else:
+                print("Failed to call API")
+                time.sleep(2)
+        except requests.exceptions.RequestException as e:
+            print(f"Error during request: {e}, attempt {attempt + 1} of {ATTEMPTS}")
+            time.sleep(2)
 
-    API_URL = f"https://api-v2.soundcloud.com/tracks/{TRACK_ID}?client_id={CLIENT_ID}"
-    r = requests.get(API_URL)
-    if r.status_code == 200:
-        transcodings = r.json().get("media", {}).get("transcodings", [])
-        for t in transcodings:
-            if t.get("format", {}).get("protocol") == "progressive":
-                track_api_url = f"{t['url']}?client_id={CLIENT_ID}"
-                print("PROG. TRANSCODING FOUND")
-                break
-        else:
-            print("No progressive stream found.")
-            return
-        stream_url_tmp = requests.get(track_api_url).json()
-        stream_url = stream_url_tmp.get("url")
-        if(stream_url):
-            player = vlc.MediaPlayer(stream_url)
-            player.play()
-            input("Press 'enter' to stop playing.")
-            player.stop()
-        else:
-            print("No URL Response Found")
-    else:
-        print("Failed to call API")
-        return
+    print("API Request fails after 3 attempts.")
+    return
 
 def print_current_sets(raw_radio):
     for i in raw_radio:
